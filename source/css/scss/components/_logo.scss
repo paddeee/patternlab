@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #LOGO
+\*------------------------------------*/
+
+.c-logo {
+	display: block;
+	max-width: 160px;
+
+	.c-box__header & {
+		max-width: 12em;
+		margin: 0 auto;
+	}
+}
+
+.c-logo-link {
+	display: inline-block;
+  	padding: 0.2rem 1rem;
+
+  	@media all and (min-width: $bp-large-2) {
+	  padding: 0.2rem 0rem 0.2rem 6rem;
+  	}
+}
