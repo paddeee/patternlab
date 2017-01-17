@@ -363,6 +363,19 @@ input[type="search"]::-webkit-search-decoration {
 .font-secondary {
   font-family: Georgia, Times, "Times New Roman", serif; }
 
+/**
+ * Used to visually hide but not from screen readers
+ */
+.hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
 /*------------------------------------*    #HEADINGS
 \*------------------------------------*/
 /**
@@ -619,7 +632,7 @@ abbr {
   display: flex;
   transition: all 0.2s ease; }
   .c-block-media:hover .c-block-media__headline, .c-block-media:focus .c-block-media__headline {
-    color: #5C832F; }
+    color: #900603; }
   .c-block-media--small {
     font-size: 0.875rem; }
 
@@ -757,7 +770,7 @@ abbr {
  */
 .c-btn {
   display: inline-block;
-  background: #3b4a20;
+  background: #DB4437;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -770,7 +783,7 @@ abbr {
 	 * Disabled button
 	 */ }
   .c-btn:hover, .c-btn:focus {
-    background: #5C832F;
+    background: #900603;
     color: #fff; }
   .c-btn.disabled {
     background: #d9d9d9;
@@ -878,7 +891,7 @@ abbr {
 .c-footer {
   clear: both;
   overflow: hidden;
-  background: #3b4a20;
+  background: #DB4437;
   color: #fff;
   line-height: 1.2;
   padding: 1em 0; }
@@ -981,20 +994,51 @@ abbr {
 /**
  * Header
  */
-.c-header {
+.header__contact-info {
+  align-items: center;
+  background-color: #900603;
+  color: #fff;
+  display: flex;
+  height: 2.6rem; }
+  .header__contact-info .fa-mobile {
+    padding: 0 0.5em 0 0; }
+
+.header__phone-info {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding: 0 0 0 1.2em; }
+
+.header__contact-icons {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin: 0 3em 0 auto; }
+  .header__contact-icons > a {
+    color: #fff; }
+  .header__contact-icons > a:hover {
+    color: #d9d9d9; }
+
+.header__contact-icon {
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  padding: 0 0.8em; }
+
+.header__main {
   display: flex;
   align-items: center;
   box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2);
   padding: 0.5em 0; }
   @media all and (min-height: 46.8em) {
-    .c-header {
+    .header__main {
       padding: 1em 0; } }
 
 /**
  * Header Controls
  * 1) This container holds the primary nav and search menu
  */
-.c-header__controls {
+.header__controls {
   margin-left: auto;
   display: flex;
   align-items: center;
