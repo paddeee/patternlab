@@ -24,25 +24,24 @@
 .c-block-hero__img {
     display: block;
     width: 100%;
-    max-height: 50vh;
+    max-height: 75vh;
     object-fit: cover;
 }
 
 /**
- * Hero Headline
+ * Hero Box
  * 1) This sits overtop of the hero image when space permits
  */
-.c-block-hero__headline {
+.c-block-hero__find-property {
     background: $color-dim-50;
     color: $color-white;
     padding: 1rem;
-    font-size: 2.6rem;
     transition: all $anim-speed-quick $anim-ease;
 
     @media all and (min-width: $bp-large) {
         position: absolute;
-        top: 3rem;
-        left: 1rem;
+        top: 4vh;
+        left: 5vw;
         width: 50%;
         border-radius: $border-radius;
     }

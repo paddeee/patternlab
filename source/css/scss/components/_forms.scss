@@ -3,6 +3,17 @@
 \*------------------------------------*/
 
 /**
+ * Stacked form
+ */
+.c-form--stacked-centre {
+  text-align: center;
+
+  input, select {
+	width: 80%;
+  }
+}
+
+/**
  * Search form
  */
 .c-search-form {
@@ -36,5 +47,5 @@
  * Stacked form button wrapper
  */
 .c-form__actions {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }

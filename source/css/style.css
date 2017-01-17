@@ -222,7 +222,7 @@ input, textarea {
   width: 100%;
   border: 1px solid #a5a5a5;
   border-radius: 6px;
-  padding: 1rem; }
+  padding: 0.6rem; }
 
 /**
  * Input areas base styles
@@ -247,6 +247,13 @@ input[type="checkbox"],
 input[type="radio"] {
   width: auto;
   margin-right: 0.3em; }
+
+/**
+ * Select Menu base styles
+ */
+select {
+  background-color: #fff;
+  height: 2.4rem; }
 
 /**
  * Search cancel button and search decoration webkit appearance none
@@ -598,27 +605,26 @@ abbr {
 .c-block-hero__img {
   display: block;
   width: 100%;
-  max-height: 50vh;
+  max-height: 75vh;
   object-fit: cover; }
 
 /**
- * Hero Headline
+ * Hero Box
  * 1) This sits overtop of the hero image when space permits
  */
-.c-block-hero__headline {
+.c-block-hero__find-property {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   padding: 1rem;
-  font-size: 2.6rem;
   transition: all 0.2s ease; }
   @media all and (min-width: 50em) {
-    .c-block-hero__headline {
+    .c-block-hero__find-property {
       position: absolute;
-      top: 3rem;
-      left: 1rem;
+      top: 4vh;
+      left: 5vw;
       width: 50%;
       border-radius: 6px; } }
-  .c-block-hero:hover .c-block-hero__headline, .c-block-hero:focus .c-block-hero__headline {
+  .c-block-hero:hover .c-block-hero__find-property, .c-block-hero:focus .c-block-hero__find-property {
     background: #444444; }
 
 /*------------------------------------*	#MEDIA BLOCK
@@ -770,7 +776,7 @@ abbr {
  */
 .c-btn {
   display: inline-block;
-  background: #DB4437;
+  background: #000;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -783,7 +789,7 @@ abbr {
 	 * Disabled button
 	 */ }
   .c-btn:hover, .c-btn:focus {
-    background: #900603;
+    background: #444444;
     color: #fff; }
   .c-btn.disabled {
     background: #d9d9d9;
@@ -949,6 +955,14 @@ abbr {
 /*------------------------------------*    #FORMS
 \*------------------------------------*/
 /**
+ * Stacked form
+ */
+.c-form--stacked-centre {
+  text-align: center; }
+  .c-form--stacked-centre input, .c-form--stacked-centre select {
+    width: 80%; }
+
+/**
  * Search form
  */
 .c-search-form {
@@ -977,7 +991,7 @@ abbr {
  * Stacked form button wrapper
  */
 .c-form__actions {
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem; }
 
 /*------------------------------------*    #FIELDS
 \*------------------------------------*/

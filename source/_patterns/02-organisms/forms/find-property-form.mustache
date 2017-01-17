@@ -1,0 +1,15 @@
+<form class="c-form  c-form--stacked-centre" method="post" action="{{ link.pages-dashboard }}">
+
+	<h2 class="c-form__title">{{ stackedFormTitle }}</h2>
+    <p class="c-form__title">{{ stackedFormSummary }}</p>
+
+	{{> molecules-field }}
+    {{> molecules-select-dropdown }}
+    {{> molecules-select-dropdown }}
+    {{> molecules-select-dropdown }}
+    {{> molecules-field }}
+
+	<div class="c-form__actions">
+		{{> atoms-button }}
+	</div>
+</form><!--end c-form--stacked-->

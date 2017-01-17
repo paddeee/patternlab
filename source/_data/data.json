@@ -99,13 +99,20 @@
     "url" : "#",
     "htmlText" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti fuga, quas quisquam perspiciatis. Consequatur, atque ducimus dolores natus officia qui rerum consectetur repellat ullam accusantium laboriosam, reprehenderit nemo deleniti</p>",
     "form" : true,
+    "stackedFormTitle": "FIND A PROPERTY",
+    "stackedFormSummary": "Discover your perfect home in seconds",
     "field" : {
         "id" : "field-id",
-        "label" : "label",
+        "label" : "Label",
         "type" : "text",
         "placeholder" : "Placeholder",
         "value" : "",
         "fieldNote" : ""
+    },
+    "selectItem" : {
+        "id" : "bedroom-select-id",
+        "label" : "Label",
+        "options" : ["Default", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     },
     "year" : "2016",
     "fields" : [

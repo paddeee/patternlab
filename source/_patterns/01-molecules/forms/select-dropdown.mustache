@@ -1,0 +1,16 @@
+{{# selectItem }}
+<div class="c-field">
+    <select id="{{ id }}">
+        <optgroup label="{{ label }}">
+            {{#options }}
+                <option>{{.}}</option>
+            {{/options }}
+        </optgroup>
+    </select>
+    <span role="status" aria-live="polite" class="hidden-accessible"></span>
+	{{# fieldNote }}
+		<span class="c-field__note">{{{ fieldNote }}}</span>
+	{{/ fieldNote }}
+
+</div><!--end c-field-->
+{{/ selectItem }}
