@@ -13,3 +13,25 @@
 		text-decoration: underline;
 	}
 }
+
+.c-combined-field {
+  display: flex;
+  justify-content: center;
+}
+
+.c-combined-field__field {
+  display: flex;
+  align-items: center;
+  width: 46%;
+
+  > label {
+    margin: 0 $pad-half 0 0;
+  }
+}
+
+.c-combined-field__separator {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 8%;
+}

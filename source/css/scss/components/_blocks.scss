@@ -5,8 +5,10 @@
  * 1) Blocks are collections of text and/or images/media working together as a unit.
  */
 
-
-
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+$c-block-hero__find-property-bp: 854px;
 
 
 /*------------------------------------*\
@@ -33,14 +35,15 @@
  * 1) This sits overtop of the hero image when space permits
  */
 .c-block-hero__find-property {
-    background: $color-dim-50;
+    background: $color-gray-73;
     color: $color-white;
-    padding: 1rem;
+    font-size: $font-size-small;
     transition: all $anim-speed-quick $anim-ease;
 
-    @media all and (min-width: $bp-large) {
+    @media all and (min-width: $c-block-hero__find-property-bp) {
+        background: $color-dim-50;
         position: absolute;
-        top: 4vh;
+        top: 10vh;
         left: 5vw;
         width: 50%;
         border-radius: $border-radius;
@@ -51,8 +54,37 @@
     }
  }
 
+.c-form__sale-or-rent {
+    display: flex;
+    justify-content: center;
+    padding: $pad 0 0;
 
+    @media all and (min-width: $c-block-hero__find-property-bp) {
+        position: absolute;
+        padding: 0;
+        width: 100%;
+        left: 0;
+        top: -$pad-and-half;
+    }
 
+    .c-form__sale-button-holder {
+        display: flex;
+        margin: 0 0.25em 0 0;
+    }
+
+    .c-form__rent-button-holder {
+        display: flex;
+        margin: 0 0 0 0.25em;
+    }
+}
+
+.c-form__sale-or-rent-form {
+    padding: $pad 0 $pad-half;
+
+    @media all and (min-width: $c-block-hero__find-property-bp) {
+        padding: ($pad-double + $pad) 0 0;
+    }
+}
 
 
 /*------------------------------------*\

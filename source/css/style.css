@@ -592,6 +592,8 @@ abbr {
 /**
  * 1) Blocks are collections of text and/or images/media working together as a unit.
  */
+/*------------------------------------*    #VARIABLES
+\*------------------------------------*/
 /*------------------------------------*	#HERO BLOCK
 \*------------------------------------*/
 .c-block-hero {
@@ -613,19 +615,44 @@ abbr {
  * 1) This sits overtop of the hero image when space permits
  */
 .c-block-hero__find-property {
-  background: rgba(0, 0, 0, 0.5);
+  background: #444444;
   color: #fff;
-  padding: 1rem;
+  font-size: 0.75rem;
   transition: all 0.2s ease; }
-  @media all and (min-width: 50em) {
+  @media all and (min-width: 854px) {
     .c-block-hero__find-property {
+      background: rgba(0, 0, 0, 0.5);
       position: absolute;
-      top: 4vh;
+      top: 10vh;
       left: 5vw;
       width: 50%;
       border-radius: 6px; } }
   .c-block-hero:hover .c-block-hero__find-property, .c-block-hero:focus .c-block-hero__find-property {
     background: #444444; }
+
+.c-form__sale-or-rent {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0 0; }
+  @media all and (min-width: 854px) {
+    .c-form__sale-or-rent {
+      position: absolute;
+      padding: 0;
+      width: 100%;
+      left: 0;
+      top: -1.5em; } }
+  .c-form__sale-or-rent .c-form__sale-button-holder {
+    display: flex;
+    margin: 0 0.25em 0 0; }
+  .c-form__sale-or-rent .c-form__rent-button-holder {
+    display: flex;
+    margin: 0 0 0 0.25em; }
+
+.c-form__sale-or-rent-form {
+  padding: 1em 0 0.5em; }
+  @media all and (min-width: 854px) {
+    .c-form__sale-or-rent-form {
+      padding: 3em 0 0; } }
 
 /*------------------------------------*	#MEDIA BLOCK
 \*------------------------------------*/
@@ -785,8 +812,12 @@ abbr {
   border-radius: 6px;
   text-align: center;
   transition: background 0.2s ease;
+  transition: color 0.2s ease;
   /**
 	 * Disabled button
+	 */
+  /**
+	 * Active button
 	 */ }
   .c-btn:hover, .c-btn:focus {
     background: #444444;
@@ -794,6 +825,10 @@ abbr {
   .c-btn.disabled {
     background: #d9d9d9;
     color: #808080; }
+  .c-btn.active {
+    color: #808080; }
+    .c-btn.active:hover, .c-btn.active:focus {
+      color: #fff; }
 
 /**
  * Small button
@@ -959,7 +994,13 @@ abbr {
  */
 .c-form--stacked-centre {
   text-align: center; }
-  .c-form--stacked-centre input, .c-form--stacked-centre select {
+  .c-form--stacked-centre .c-field {
+    margin: 0 auto 1rem;
+    width: 80%; }
+    .c-form--stacked-centre .c-field select {
+      width: 100%; }
+  .c-form--stacked-centre .c-combined-field {
+    margin: 0 auto 1rem;
     width: 80%; }
 
 /**
@@ -1002,6 +1043,23 @@ abbr {
   font-size: 0.75rem; }
   .c-field__note a {
     text-decoration: underline; }
+
+.c-combined-field {
+  display: flex;
+  justify-content: center; }
+
+.c-combined-field__field {
+  display: flex;
+  align-items: center;
+  width: 46%; }
+  .c-combined-field__field > label {
+    margin: 0 0.5em 0 0; }
+
+.c-combined-field__separator {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 8%; }
 
 /*------------------------------------*    #HEADER
 \*------------------------------------*/

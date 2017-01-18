@@ -16,6 +16,7 @@
 	border-radius: $border-radius;
 	text-align: center;
 	transition: background 0.2s ease;
+  	transition: color 0.2s ease;
 
 	&:hover, &:focus {
 		background: $color-gray-73;
@@ -28,6 +29,17 @@
 	&.disabled {
 		background: $color-gray-15;
 		color: $color-gray-50;
+	}
+
+	/**
+	 * Active button
+	 */
+	&.active {
+	  color: $color-gray-50;
+
+	  &:hover, &:focus {
+		color: $color-white;
+	  }
 	}
 }
 
