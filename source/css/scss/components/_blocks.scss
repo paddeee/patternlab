@@ -35,13 +35,13 @@ $c-block-hero__find-property-bp: 854px;
  * 1) This sits overtop of the hero image when space permits
  */
 .c-block-hero__find-property {
-    background: $color-gray-73;
+    background-color: $color-primary;
     color: $color-white;
     font-size: $font-size-small;
     transition: all $anim-speed-quick $anim-ease;
 
     @media all and (min-width: $c-block-hero__find-property-bp) {
-        background: $color-dim-50;
+        background-color: $color-primary-dim-50;
         position: absolute;
         top: 10vh;
         left: 5vw;
@@ -50,7 +50,7 @@ $c-block-hero__find-property-bp: 854px;
     }
 
     .c-block-hero:hover &, .c-block-hero:focus & {
-        background: $color-gray-73;
+        background-color: $color-primary;
     }
  }
 
