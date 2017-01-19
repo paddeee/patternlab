@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
 		function ScaleSlider() {
 			var refSize = slider.$Elmt.parentNode.clientWidth;
 			if (refSize) {
-				refSize = Math.min(refSize, 800);
+				refSize = Math.min(refSize, 19200);
 				slider.$ScaleWidth(refSize);
 			}
 			else {
