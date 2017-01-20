@@ -17,6 +17,10 @@ $c-block-hero__find-property-bp: 854px;
 .c-block-hero {
     display: block;
     position: relative;
+
+    .slider__thumbnails {
+        display: none;
+    }
 }
 
 /**
@@ -49,7 +53,8 @@ $c-block-hero__find-property-bp: 854px;
         border-radius: $border-radius;
     }
 
-    .c-block-hero:hover &, .c-block-hero:focus & {
+    .c-block-hero:hover &,
+    .c-block-hero:focus & {
         background-color: $color-primary;
     }
  }

@@ -1,4 +1,4 @@
-<div id="Slider" class="slider">
+<div id="{{ sliderId }}" class="slider  {{ styleModifier }}">
     <div data-u="slider__loading">
         <div class="slider__mask"></div>
         <div class="slider__spinner" style="background:url('<?php echo get_stylesheet_directory_uri() . '/viscore/custom/jssor/img/loading.gif' ?>') no-repeat center center;"></div>
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div id="SliderArrowsContainer">
-        <span data-u="arrowleft" class="slider__arrow  slider__arrow--left" style="top:158px;left:8px;width:40px;height:40px;"><</span>
-        <span data-u="arrowright" class="slider__arrow  slider__arrow--right" style="top:158px;right:8px;width:40px;height:40px;">></span>
+        <span data-u="arrowleft" class="slider__arrow  slider__arrow--left"><</span>
+        <span data-u="arrowright" class="slider__arrow  slider__arrow--right">></span>
     </div>
 </div>

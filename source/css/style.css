@@ -592,6 +592,8 @@ abbr {
 .c-block-hero {
   display: block;
   position: relative; }
+  .c-block-hero .slider__thumbnails {
+    display: none; }
 
 /**
  * Hero Image
@@ -620,7 +622,8 @@ abbr {
       left: 5vw;
       width: 50%;
       border-radius: 6px; } }
-  .c-block-hero:hover .c-block-hero__find-property, .c-block-hero:focus .c-block-hero__find-property {
+  .c-block-hero:hover .c-block-hero__find-property,
+  .c-block-hero:focus .c-block-hero__find-property {
     background-color: #900603; }
 
 .c-form__sale-or-rent {
