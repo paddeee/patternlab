@@ -81,20 +81,28 @@
     ],
     "footerNav" : [
         {
-            "label": "About",
-            "url": "link.pages-about"
+            "label": "Home",
+            "url": "link.pages-home"
+        },
+        {
+            "label": "For Sale",
+            "url": "link.pages-for-sale"
+        },
+        {
+            "label": "To Rent",
+            "url": "link.pages-to-rent"
         },
         {
             "label": "Blog",
-            "url": "link.pages-blog-index"
+            "url": "link.pages-blog"
         },
         {
-            "label": "Contact",
-            "url": "link.pages-contact"
+            "label": "Contact Us",
+            "url": "link.pages-contact-us"
         },
         {
-            "label": "Login",
-            "url": "link.pages-login"
+            "label": "Our Services",
+            "url": "link.pages-our-services"
         }
     ],
     "url" : "#",
@@ -250,6 +258,6 @@
 	],			
     "sectionBlock" : true,
     "textButton" : true,
-	"overlayMessage" : "Let's go on a hike and climb in elevation",
-	"overlayAction" : "Find a Hike"
+	"overlayMessage" : "This is an Overlay Message",
+	"overlayAction" : "Overlay CTA"
 }

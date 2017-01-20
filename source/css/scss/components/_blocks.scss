@@ -8,13 +8,14 @@
 /*------------------------------------*\
     #VARIABLES
 \*------------------------------------*/
-$c-block-hero__find-property-bp: 854px;
+$c-block-hero__find-property-bp: 1184px;
 
 
 /*------------------------------------*\
 	#HERO BLOCK
 \*------------------------------------*/
 .c-block-hero {
+    border-bottom: 0.5em solid #000;
     display: block;
     position: relative;
 
@@ -47,7 +48,7 @@ $c-block-hero__find-property-bp: 854px;
     @media all and (min-width: $c-block-hero__find-property-bp) {
         background-color: $color-primary-dim-50;
         position: absolute;
-        top: 10vh;
+        top: 8vh;
         left: 5vw;
         width: 50%;
         border-radius: $border-radius;

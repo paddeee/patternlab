@@ -590,6 +590,7 @@ abbr {
 /*------------------------------------*	#HERO BLOCK
 \*------------------------------------*/
 .c-block-hero {
+  border-bottom: 0.5em solid #000;
   display: block;
   position: relative; }
   .c-block-hero .slider__thumbnails {
@@ -614,11 +615,11 @@ abbr {
   color: #fff;
   font-size: 0.75rem;
   transition: all 0.2s ease; }
-  @media all and (min-width: 854px) {
+  @media all and (min-width: 1184px) {
     .c-block-hero__find-property {
       background-color: rgba(144, 6, 3, 0.5);
       position: absolute;
-      top: 10vh;
+      top: 8vh;
       left: 5vw;
       width: 50%;
       border-radius: 6px; } }
@@ -630,7 +631,7 @@ abbr {
   display: flex;
   justify-content: center;
   padding: 1em 0 0; }
-  @media all and (min-width: 854px) {
+  @media all and (min-width: 1184px) {
     .c-form__sale-or-rent {
       position: absolute;
       padding: 0;
@@ -646,7 +647,7 @@ abbr {
 
 .c-form__sale-or-rent-form {
   padding: 1em 0 0.5em; }
-  @media all and (min-width: 854px) {
+  @media all and (min-width: 1184px) {
     .c-form__sale-or-rent-form {
       padding: 3em 0 0; } }
 
