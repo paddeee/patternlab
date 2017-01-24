@@ -44,3 +44,38 @@
 	border-radius: $border-radius;
 	margin-bottom: 1rem;
 }
+
+/**
+ * BlockQuote with quote icons
+ */
+.c-quote {
+  border: 0 none;
+  padding: 2em 2.5em 0;
+}
+
+.c-quote__text:before,
+.c-quote__text:after {
+  content: '\f10d';
+  font-family: 'FontAwesome';
+  font-size: $font-size-large;
+  display: block;
+  position: absolute;
+}
+
+.c-quote__text:before {
+  top: 0;
+  left: 0;
+}
+
+.c-quote__text:after {
+  content: '\f10e';
+  right: 4px;
+  top: auto;
+  left: auto;
+}
+
+.c-quote__cite {
+  text-align: right;
+  display: block;
+  padding: 2em 0 0;
+}

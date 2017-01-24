@@ -13,7 +13,7 @@
     "progressValue" : "85",
 	"alertText" : "An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages",
     "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
-    "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
+    "quoteSource" : "Wikiepedia",
     "sliderId": "Slider",
     "img": {
         "landscape-4x3": {
@@ -47,12 +47,15 @@
     },
     "sectionTitle" : "Section Title",
     "excerpt" : {
-        "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+        "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     "number" : "12",
     "headerContactInfo": "Call Us Today on 0161 123 4567",
+    "headerEmailInfo": "Email - info@preciselocations.co.uk",
+    "telephone": "+441611234567",
+    "emailAddress": "info@preciselocations.co.uk",
     "primaryNav" : [
         {
             "label": "Home",
@@ -67,16 +70,20 @@
             "url": "link.pages-to-rent"
         },
         {
+            "label": "Landlords",
+            "url": "link.pages-landlords"
+        },
+        {
+            "label": "About",
+            "url": "link.about"
+        },
+        {
             "label": "Blog",
             "url": "link.pages-blog"
         },
         {
-            "label": "Contact Us",
+            "label": "Contact",
             "url": "link.pages-contact-us"
-        },
-        {
-            "label": "Our Services",
-            "url": "link.pages-our-services"
         }
     ],
     "footerNav" : [
@@ -93,16 +100,20 @@
             "url": "link.pages-to-rent"
         },
         {
+            "label": "Landlords",
+            "url": "link.pages-landlords"
+        },
+        {
+            "label": "About",
+            "url": "link.about"
+        },
+        {
             "label": "Blog",
             "url": "link.pages-blog"
         },
         {
-            "label": "Contact Us",
+            "label": "Contact",
             "url": "link.pages-contact-us"
-        },
-        {
-            "label": "Our Services",
-            "url": "link.pages-our-services"
         }
     ],
     "url" : "#",
@@ -123,7 +134,7 @@
         "label" : "Label",
         "options" : ["Default", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     },
-    "year" : "2016",
+    "year" : "2017",
     "fields" : [
         { },
         { }
@@ -183,7 +194,7 @@
         ],
         "pagination" : false
     },
-    "featuredHikes" : {
+    "latestProperties" : {
         "mediaList": [
             {
                 "styleModifier" : "small"

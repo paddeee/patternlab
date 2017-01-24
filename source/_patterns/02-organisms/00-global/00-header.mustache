@@ -2,11 +2,18 @@
 
     <div class="header__contact-info">
         <div class="header__phone-info">
-            <span class="fa  fa-lg  fa-mobile"></span>
-            <span>{{ headerContactInfo }}</span>
+            <a href="tel:{{ telephone }}">
+                <span class="fa  fa-lg  fa-mobile"></span>
+                <span class="header__contact-text">{{ headerContactInfo }}</span>
+            </a>
+        </div>
+        <div class="header__email-info">
+            <a href="mailto:{{ emailAddress }}" title="Email">
+                <span class="fa  fa-envelope"></span>
+                <span class="header__contact-text">{{ headerEmailInfo }}</span>
+            </a>
         </div>
         <div class="header__contact-icons">
-            <a href="#" title="Email"><span class="header__contact-icon  fa  fa-envelope"></span></a>
             <a href="#" title="Facebook"><span class="header__contact-icon  fa  fa-facebook"></span></a>
             <a href="#" title="Google"><span class="header__contact-icon  fa  fa-google"></span></a>
             <a href="#" title="Twitter"><span class="header__contact-icon  fa  fa-twitter"></span></a>

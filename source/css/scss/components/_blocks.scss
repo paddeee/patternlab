@@ -8,7 +8,7 @@
 /*------------------------------------*\
     #VARIABLES
 \*------------------------------------*/
-$c-block-hero__find-property-bp: 1184px;
+$c-block-hero__find-property-bp: 800px;
 
 
 /*------------------------------------*\
@@ -21,6 +21,13 @@ $c-block-hero__find-property-bp: 1184px;
 
     .slider__thumbnails {
         display: none;
+    }
+
+    @media all and (max-width: ($c-block-hero__find-property-bp - 1)) {
+
+        .slider--hero {
+            display: none;
+        }
     }
 }
 
@@ -48,10 +55,10 @@ $c-block-hero__find-property-bp: 1184px;
     @media all and (min-width: $c-block-hero__find-property-bp) {
         background-color: $color-primary-dim-50;
         position: absolute;
-        top: 8vh;
+        bottom: 0;
         left: 5vw;
-        width: 50%;
-        border-radius: $border-radius;
+        width: 35%;
+        border-radius: $border-radius $border-radius 0 0;
     }
 
     .c-block-hero:hover &,
@@ -113,7 +120,7 @@ $c-block-hero__find-property-bp: 1184px;
 	}
 
 	&--small {
-		font-size: $font-size-small-2;
+		font-size: $font-size-small;
 	}
 }
 
@@ -127,14 +134,23 @@ $c-block-hero__find-property-bp: 1184px;
 	margin-right: 1rem;
 
 	.c-block-media--small & {
-		max-width: 3.5em;
-		margin-right: 0.5rem;
+		max-width: 5em;
+		margin-right: 1rem;
 	}
 
 	@media all and (min-width: $bp-med) {
 		width: 50%;
 		margin-right: 1.5rem;
 	}
+}
+
+/* For use in the footer */
+.c-block-media__media--footer {
+
+    @media all and (min-width: $bp-med) {
+        width: 30%;
+        margin-right: 1rem;
+    }
 }
 
 .c-block-media__img {

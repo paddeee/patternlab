@@ -6,12 +6,26 @@
  * Footer
  */
 .c-footer {
-	clear: both;
-	overflow: hidden;
-	background: $color-secondary;
-	color: $color-white;
-	line-height: 1.2;
-	padding: 1em 0;
+  clear: both;
+  font-size: $font-size-small;
+  overflow: hidden;
+  line-height: 1.2;
+  padding: 1em;
+  position: relative;
+
+
+}
+
+.c-footer__bg {
+  background-image:url('../images/footer-bg.jpg');
+  background-size: cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 /**

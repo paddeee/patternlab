@@ -7,8 +7,9 @@
  */
 body {
 	background: $color-white;
-	color: $color-gray-50;
+	color: $color-black;
 	font: 100%/1.5 $font;
+  	font-weight: 300;
 	-webkit-text-size-adjust: 100%;
 	min-height: 100vh;
 	display: flex;

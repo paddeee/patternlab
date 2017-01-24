@@ -28,7 +28,7 @@
     {
       "el": ".c-block-hero",
       "title" : "Hero",
-      "comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
+      "comment": "<p>The hero area highlights one major story using a large image and a call to action.</p>"
     }
   ]
 }

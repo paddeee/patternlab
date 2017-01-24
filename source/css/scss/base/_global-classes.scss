@@ -118,23 +118,10 @@
     color: $color-utility-neutral;
 }
 
-/**
- * Display secondary font family
- */
-.font-secondary {
-    font-family: $font-secondary;
+.primary-colour {
+    color: $color-primary;
 }
 
-/**
- * Used to visually hide but not from screen readers
- */
-.hidden-accessible {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+.white-colour {
+    color: $color-white;
 }

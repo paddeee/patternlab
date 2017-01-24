@@ -142,5 +142,55 @@
 			}
 		],
 		"btnText" : "View All Staff"
-	}
+	},
+  "latestProperties" : {
+	"mediaList": [
+	  {
+		"url" : "",
+		"styleModifier" : "small",
+		"imgSquare" : {
+		  "src": "http://eatest.energisededge.com/wp-content/uploads/2017/01/W4-garden.jpg",
+		  "alt": "Garden"
+		},
+		"headline" : {
+		  "short" : "Family House"
+		},
+		"excerpt" : {
+		  "medium" : "£127 000"
+		}
+
+	  },
+	  {
+		"url" : "",
+		"styleModifier" : "small",
+		"imgSquare" : {
+		  "src": "http://eatest.energisededge.com/wp-content/uploads/2017/01/W4-lounge.jpg",
+		  "alt": "Loft Apartment"
+		},
+		"headline" : {
+		  "short" : "Loft Apartment"
+		},
+		"excerpt" : {
+		  "medium" : "£845 000"
+		}
+
+	  },
+	  {
+		"url" : "",
+		"styleModifier" : "small",
+		"imgSquare" : {
+		  "src": "http://eatest.energisededge.com/wp-content/uploads/2017/01/Front-W4-front.jpg",
+		  "alt": "Townhouse"
+		},
+		"headline" : {
+		  "short" : "Townhouse"
+		},
+		"excerpt" : {
+		  "medium" : "£395 000"
+		}
+
+	  }
+	],
+	"btnText" : "View All Staff"
+  }
 }

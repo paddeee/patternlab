@@ -14,12 +14,7 @@
  * Footer Nav List
  */
 .c-footer-nav__list {
-	display: flex;
-	flex-direction: column;
-	
-	@media all and (min-width: $bp-small) {
-		flex-direction: row;
-	}	
+
 }
 
 /**
@@ -37,10 +32,9 @@
  * Footer Nav Links
  */
 .c-footer-nav__link {
-	font-weight: bold;
 	display: block;
-	padding: 1rem 2rem 1rem 0;
-	color: $color-white;
+	padding: $pad-half 0;
+	color: $color-black;
 	
 	&:hover, &:focus {
 		color: $color-gray-35;

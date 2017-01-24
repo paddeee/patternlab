@@ -33,17 +33,28 @@
 	position: relative;
 	color: $color-gray-73;
 	margin-bottom: 1.5rem;
+  	text-transform: uppercase;
 
 	&:after {
 	    content: "";
 	    display: block;
 	    position: absolute;
-	    width: 2rem;
-	    height: 0.3rem;
+	    width: 3rem;
+	    height: 0.2rem;
 	    top: 30px;
 	    left: 1px;
 	    background: $color-gray-35;
 	}
+}
+
+.c-section__title--footer {
+  color: $color-primary;
+  font-size: $font-size-med-2;
+
+  &:after {
+	background: $color-black;
+	top: 25px;
+  }
 }
 
 
@@ -85,4 +96,71 @@
 	@media all and (min-width: $bp-med){
 		padding: 0 0 0 1em;
 	}
+}
+
+/*------------------------------------*\
+	#VALUATION SECTION
+\*------------------------------------*/
+
+/**
+ * 1) The valuation section containing a video element.
+ */
+.c-section-valuation {
+  color: $color-white;
+  margin-bottom: $space-half;
+  padding: $pad-and-half;
+  position: relative;
+}
+
+.c-section-valuation__tint {
+  background-color: $color-primary;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.c-section-valuation__tint:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('http://www.scaffoldingjohannesburg.co.za/wp-content/uploads/2013/06/Page-Background-Scaffoldinf.png');
+}
+
+.c-section-valuation__contact-info-wrapper {
+  align-items: center;
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+
+.c-section-valuation__contact-info {
+  margin: 0 0 0 $pad-half;
+}
+
+.c-section-valuation__call-now {
+  font-size: 0.5em;
+}
+
+/**
+ *  Valuation image
+ */
+
+.c-section-valuation__img {
+  display: block;
+}
+
+/**
+ *  Valuation headline
+ */
+.c-section-valuation__heading-info {
+  text-transform: uppercase;
+
+  > h2 {
+	margin: 0 auto 1rem 0;
+  }
 }

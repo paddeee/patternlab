@@ -10,7 +10,7 @@
 
   .c-field {
 	margin: 0 auto 1rem;
-	width: 80%;
+	width: 50%;
 
 	select {
 	  width: 100%;
@@ -19,7 +19,7 @@
 
   .c-combined-field {
 	margin: 0 auto 1rem;
-	width: 80%;
+	width: 50%;
   }
 }
 
@@ -44,6 +44,13 @@
 	@media all and (min-width: $bp-small-2) {
 		display: block;
 	}
+}
+
+/**
+ * Form Title
+ */
+.c-form__title {
+  font-size: 2rem;
 }
 
 /**
