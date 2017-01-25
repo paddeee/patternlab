@@ -2,6 +2,11 @@
     #SECTIONS
 \*------------------------------------*/
 
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+$featured-property-bp: 900px;
+
 /**
  * Section
  */
@@ -129,13 +134,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('http://www.scaffoldingjohannesburg.co.za/wp-content/uploads/2013/06/Page-Background-Scaffoldinf.png');
+  background-image: url('../images/valuation-bg.png');
+  background-size: cover;
+  opacity: 0.2;
 }
 
 .c-section-valuation__contact-info-wrapper {
   align-items: center;
   display: flex;
-  margin: 0 0 1rem 0;
 }
 
 .c-section-valuation__contact-info {
@@ -146,12 +152,31 @@
   font-size: 0.5em;
 }
 
-/**
- *  Valuation image
- */
+.c-section-valuation__content-wrapper {
+  width: 100%;
 
-.c-section-valuation__img {
-  display: block;
+  @media (min-width: 50em) {
+	width: 50%;
+  }
+
+  h3 {
+	text-transform: uppercase;
+  }
+}
+
+.c-section-valuation__testimonial {
+  margin: 1rem 0 0;
+}
+
+.c-section-valuation__video-wrapper {
+
+  margin: 2em 0 0;
+  width: 100%;
+
+  @media (min-width: 50em) {
+	margin: 0 0 2em 2em;
+	width: 50%;
+  }
 }
 
 /**
@@ -162,5 +187,169 @@
 
   > h2 {
 	margin: 0 auto 1rem 0;
+  }
+}
+
+/*------------------------------------*\
+	#FEATURED PROPERTY SECTION
+\*------------------------------------*/
+
+.c-featured-property {
+  color: $color-white;
+  margin-bottom: $space-half;
+  padding: $pad-and-half;
+  position: relative;
+
+  > h2 {
+    margin: 0.5em 0 1em 0;
+    text-transform: uppercase;
+  }
+}
+
+.c-featured-property__tint {
+  background-color: $color-primary;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.c-featured-property__tint:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('http://eatest.energisededge.com/wp-content/uploads/2017/01/Living-Room.jpg');
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.c-featured-property__title {
+  position: absolute;
+  left: $space-double;
+  top: -$space;
+  display: inline-block;
+  background: $color-black;
+  padding: $pad-quarter $pad-half;
+  text-transform: uppercase;
+}
+
+.c-featured-property__image {
+  margin: 1em 0;
+
+  img {
+    border-radius: $border-radius;
+    width: 100%;
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+    float: left;
+    perspective: 50em;
+    width: 60%;
+
+    a:hover {
+
+      img {
+        transform: rotateY(10deg);
+      }
+    }
+
+    a {
+
+      img {
+        border-radius: 0;
+        transition: .3s;
+        transform: rotate(0);
+      }
+    }
+
+
+  }
+}
+
+.c-featured-property__detail-wrapper {
+
+  @media all and (min-width: $featured-property-bp) {
+    width: 34%;
+    margin: 0 0 0 auto;
+  }
+}
+
+.c-featured-property__detail-grid {
+
+  > div {
+    width: 25%;
+    text-align: center;
+    padding: 0 $pad-half;
+    float: left;
+
+    img {
+      width: 4em;
+    }
+
+    @media all and (min-width: $featured-property-bp) {
+      float: none;
+      width: 50%;
+    }
+  }
+}
+
+.c-featured-property__detail-info {
+  display: flex;
+  margin: 1em 0;
+
+  @media all and (min-width: $featured-property-bp) {
+    flex-direction: column;
+  }
+}
+
+.c-featured-property__detail-location {
+  margin: 0 auto $pad-quarter 0;
+
+  .fa {
+    margin: 0 $space-half 0 0;
+  }
+}
+
+.c-featured-property__detail-grid {
+  overflow: hidden;
+  margin: 1em -0.5em
+}
+
+.c-featured-property__description {
+
+  a {
+    color: $color-white;
+    text-transform: uppercase;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+    position: absolute;
+    width: 34%;
+    font-size: $font-size-small;
+    right: 1em;
+    color: $color-text-subtle;
+    height: 15em;
+    overflow: hidden;
+    padding: 4em 0 0;
+
+    a {
+      color: $color-text-link;
+      text-transform: uppercase;
+    }
+
+    p {
+      border-left: solid $color-border 6px;
+      padding: 0 1em;
+    }
   }
 }

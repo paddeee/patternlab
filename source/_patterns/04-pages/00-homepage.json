@@ -1,13 +1,14 @@
 {
-	"title" : "Home Page",
-	"bodyClass": "home",
-	"emergency" : false,
-    "imgHero" : {
-  	  "src": "http://eatest.energisededge.com/wp-content/uploads/2016/12/1324-Artylowres5.jpg",
-      "alt": "House Alt tag"
-    },
-  	"pageTitle": "Welcome to Precise Locations",
-	"toutList" : [
+  "title" : "Home Page",
+  "bodyClass": "home",
+  "emergency" : false,
+  "imgHero" : {
+	"src": "http://eatest.energisededge.com/wp-content/uploads/2016/12/1324-Artylowres5.jpg",
+	"alt": "House Alt tag"
+  },
+  "pageTitle": "Welcome to Precise Locations",
+  "featuredPropertyImage": "http://eatest.energisededge.com/wp-content/uploads/2017/01/Front-W4-front.jpg",
+  "toutList" : [
       {
 		"url": "link.pages-blog-detail",
 		"headline": {

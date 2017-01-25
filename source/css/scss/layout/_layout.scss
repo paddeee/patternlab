@@ -6,6 +6,7 @@
  * Layout container
  */
 .l {
+  clear: left;
 	max-width: $l-max-width;
 	margin: 1rem auto;
 	padding: 0 1rem;

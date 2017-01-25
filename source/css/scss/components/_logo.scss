@@ -3,13 +3,17 @@
 \*------------------------------------*/
 
 .c-logo {
-	display: block;
-	max-width: 160px;
+  display: block;
+  max-width: 160px;
 
-	.c-box__header & {
-		max-width: 12em;
-		margin: 0 auto;
-	}
+  .c-box__header & {
+	  max-width: 12em;
+	  margin: 0 auto;
+  }
+
+  @media all and (max-width: $bp-large) {
+	max-width: 95px;
+  }
 }
 
 .c-logo-link {

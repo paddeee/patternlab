@@ -10,6 +10,14 @@ $header-contact-info-bp: 770px;
 /**
  * Header
  */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 .header__contact-info {
   align-items: center;
   background-color: $color-primary;
@@ -46,7 +54,7 @@ $header-contact-info-bp: 770px;
   align-items: center;
   display: flex;
   height: 100%;
-  padding: 0 $pad-and-half;
+  padding: 0 $pad-and-half 0 ($pad * 3);
 
   @media all and (max-width: $header-contact-info-bp) {
 	padding: 0 0 0 $pad-half;
@@ -57,7 +65,11 @@ $header-contact-info-bp: 770px;
   align-items: center;
   display: flex;
   height: 100%;
-  margin: 0 3em 0 auto;
+  margin: 0 ($pad * 3) 0 auto;
+
+  @media all and (max-width: $header-contact-info-bp) {
+    margin: 0 0 0 auto;
+  }
 }
 
 .header__contact-icon {
@@ -68,14 +80,15 @@ $header-contact-info-bp: 770px;
 }
 
 .header__main {
-	display: flex;
-	align-items: center;
-	box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.2);
-	padding: 0.5em 0;
-	
-	@media all and (min-height: $bp-med) {
-		padding: 1em 0;
-	}
+  background-color: $color-white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.2);
+  padding: 0.5em 0;
+
+  @media all and (min-height: $bp-med) {
+	  padding: 1em 0;
+  }
 }
 
 /**
@@ -106,17 +119,5 @@ $header-contact-info-bp: 770px;
 	@media all and (max-width: 17em) {
 		padding-left: 0.2rem;
 		padding-right: 0.2rem;
-	}
-}
-
-/**
- * Search nav toggle button
- * 1) Specific nav toggle button for the search form
- */
-.nav-toggle-search {
-	display: block;
-	
-	@media all and (min-width: $bp-small-2) {
-		display: none;
 	}
 }

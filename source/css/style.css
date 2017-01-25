@@ -447,7 +447,11 @@ dd {
  * Main content area
  */
 [role=main] {
-  flex: 1; }
+  flex: 1;
+  padding-top: 136px; }
+  @media all and (max-width: 50em) {
+    [role=main] {
+      padding-top: 106px; } }
 
 /*------------------------------------*    #MEDIA ELEMENTS
 \*------------------------------------*/
@@ -544,7 +548,6 @@ p {
 blockquote {
   font-style: italic;
   border-left: 1px solid #808080;
-  color: #808080;
   padding-left: 1em;
   margin-bottom: 1em; }
 
@@ -926,7 +929,7 @@ abbr {
   font-size: 0.75rem;
   overflow: hidden;
   line-height: 1.2;
-  padding: 1em;
+  padding: 1em 1em 140px;
   position: relative; }
 
 .c-footer__bg {
@@ -939,6 +942,12 @@ abbr {
   right: 0;
   position: absolute;
   z-index: -1; }
+
+.c-footer__logo {
+  background-repeat: no-repeat;
+  left: calc(50% - 151px);
+  bottom: -3px;
+  position: absolute; }
 
 /**
  * Footer nav
@@ -1069,6 +1078,13 @@ abbr {
 /**
  * Header
  */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; }
+
 .header__contact-info {
   align-items: center;
   background-color: #900603;
@@ -1095,7 +1111,7 @@ abbr {
   align-items: center;
   display: flex;
   height: 100%;
-  padding: 0 1.5em; }
+  padding: 0 1.5em 0 3em; }
   @media all and (max-width: 770px) {
     .header__phone-info {
       padding: 0 0 0 0.5em; } }
@@ -1105,6 +1121,9 @@ abbr {
   display: flex;
   height: 100%;
   margin: 0 3em 0 auto; }
+  @media all and (max-width: 770px) {
+    .header__contact-icons {
+      margin: 0 0 0 auto; } }
 
 .header__contact-icon {
   align-items: center;
@@ -1113,6 +1132,7 @@ abbr {
   padding: 0 0.8em; }
 
 .header__main {
+  background-color: #fff;
   display: flex;
   align-items: center;
   box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2);
@@ -1148,16 +1168,6 @@ abbr {
       padding-left: 0.2rem;
       padding-right: 0.2rem; } }
 
-/**
- * Search nav toggle button
- * 1) Specific nav toggle button for the search form
- */
-.nav-toggle-search {
-  display: block; }
-  @media all and (min-width: 29.75em) {
-    .nav-toggle-search {
-      display: none; } }
-
 /*------------------------------------*    #LOGO
 \*------------------------------------*/
 .c-logo {
@@ -1166,6 +1176,9 @@ abbr {
   .c-box__header .c-logo {
     max-width: 12em;
     margin: 0 auto; }
+  @media all and (max-width: 50em) {
+    .c-logo {
+      max-width: 95px; } }
 
 .c-logo-link {
   display: inline-block;
@@ -1624,6 +1637,8 @@ abbr {
 
 /*------------------------------------*    #SECTIONS
 \*------------------------------------*/
+/*------------------------------------*    #VARIABLES
+\*------------------------------------*/
 /**
  * Section
  */
@@ -1725,12 +1740,13 @@ abbr {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("http://www.scaffoldingjohannesburg.co.za/wp-content/uploads/2013/06/Page-Background-Scaffoldinf.png"); }
+  background-image: url("../images/valuation-bg.png");
+  background-size: cover;
+  opacity: 0.2; }
 
 .c-section-valuation__contact-info-wrapper {
   align-items: center;
-  display: flex;
-  margin: 0 0 1rem 0; }
+  display: flex; }
 
 .c-section-valuation__contact-info {
   margin: 0 0 0 0.5em; }
@@ -1738,11 +1754,24 @@ abbr {
 .c-section-valuation__call-now {
   font-size: 0.5em; }
 
-/**
- *  Valuation image
- */
-.c-section-valuation__img {
-  display: block; }
+.c-section-valuation__content-wrapper {
+  width: 100%; }
+  @media (min-width: 50em) {
+    .c-section-valuation__content-wrapper {
+      width: 50%; } }
+  .c-section-valuation__content-wrapper h3 {
+    text-transform: uppercase; }
+
+.c-section-valuation__testimonial {
+  margin: 1rem 0 0; }
+
+.c-section-valuation__video-wrapper {
+  margin: 2em 0 0;
+  width: 100%; }
+  @media (min-width: 50em) {
+    .c-section-valuation__video-wrapper {
+      margin: 0 0 2em 2em;
+      width: 50%; } }
 
 /**
  *  Valuation headline
@@ -1751,6 +1780,121 @@ abbr {
   text-transform: uppercase; }
   .c-section-valuation__heading-info > h2 {
     margin: 0 auto 1rem 0; }
+
+/*------------------------------------*	#FEATURED PROPERTY SECTION
+\*------------------------------------*/
+.c-featured-property {
+  color: #fff;
+  margin-bottom: 0.5em;
+  padding: 1.5em;
+  position: relative; }
+  .c-featured-property > h2 {
+    margin: 0.5em 0 1em 0;
+    text-transform: uppercase; }
+
+.c-featured-property__tint {
+  background-color: #900603;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; }
+
+.c-featured-property__tint:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("http://eatest.energisededge.com/wp-content/uploads/2017/01/Living-Room.jpg");
+  background-size: cover;
+  opacity: 0.2; }
+
+.c-featured-property__title {
+  position: absolute;
+  left: 2em;
+  top: -1em;
+  display: inline-block;
+  background: #000;
+  padding: 0.25em 0.5em;
+  text-transform: uppercase; }
+
+.c-featured-property__image {
+  margin: 1em 0; }
+  .c-featured-property__image img {
+    border-radius: 6px;
+    width: 100%; }
+  @media all and (min-width: 900px) {
+    .c-featured-property__image {
+      float: left;
+      perspective: 50em;
+      width: 60%; }
+      .c-featured-property__image a:hover img {
+        transform: rotateY(10deg); }
+      .c-featured-property__image a img {
+        border-radius: 0;
+        transition: .3s;
+        transform: rotate(0); } }
+
+@media all and (min-width: 900px) {
+  .c-featured-property__detail-wrapper {
+    width: 34%;
+    margin: 0 0 0 auto; } }
+
+.c-featured-property__detail-grid > div {
+  width: 25%;
+  text-align: center;
+  padding: 0 0.5em;
+  float: left; }
+  .c-featured-property__detail-grid > div img {
+    width: 4em; }
+  @media all and (min-width: 900px) {
+    .c-featured-property__detail-grid > div {
+      float: none;
+      width: 50%; } }
+
+.c-featured-property__detail-info {
+  display: flex;
+  margin: 1em 0; }
+  @media all and (min-width: 900px) {
+    .c-featured-property__detail-info {
+      flex-direction: column; } }
+
+.c-featured-property__detail-location {
+  margin: 0 auto 0.25em 0; }
+  .c-featured-property__detail-location .fa {
+    margin: 0 0.5em 0 0; }
+
+.c-featured-property__detail-grid {
+  overflow: hidden;
+  margin: 1em -0.5em; }
+
+.c-featured-property__description a {
+  color: #fff;
+  text-transform: uppercase; }
+
+.c-featured-property__description a:hover,
+.c-featured-property__description a:focus {
+  text-decoration: underline; }
+
+@media all and (min-width: 900px) {
+  .c-featured-property__description {
+    position: absolute;
+    width: 34%;
+    font-size: 0.75rem;
+    right: 1em;
+    color: #808080;
+    height: 15em;
+    overflow: hidden;
+    padding: 4em 0 0; }
+    .c-featured-property__description a {
+      color: #222222;
+      text-transform: uppercase; }
+    .c-featured-property__description p {
+      border-left: solid #808080 6px;
+      padding: 0 1em; } }
 
 /*------------------------------------*    #TEXT
 \*------------------------------------*/
@@ -1790,7 +1934,8 @@ abbr {
  */
 .c-quote {
   border: 0 none;
-  padding: 2em 2.5em 0; }
+  padding: 2em 2.5em 0;
+  position: relative; }
 
 .c-quote__text:before,
 .c-quote__text:after {
@@ -1893,6 +2038,7 @@ progress[value]::-webkit-progress-bar {
  * Layout container
  */
 .l {
+  clear: left;
   max-width: 80em;
   margin: 1rem auto;
   padding: 0 1rem; }

@@ -10,10 +10,8 @@
   font-size: $font-size-small;
   overflow: hidden;
   line-height: 1.2;
-  padding: 1em;
+  padding: 1em 1em 140px;
   position: relative;
-
-
 }
 
 .c-footer__bg {
@@ -26,6 +24,13 @@
   right: 0;
   position: absolute;
   z-index: -1;
+}
+
+.c-footer__logo {
+  background-repeat: no-repeat;
+  left: calc(50% - 151px);
+  bottom: -3px;
+  position: absolute;
 }
 
 /**
