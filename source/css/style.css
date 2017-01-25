@@ -1843,33 +1843,32 @@ abbr {
     width: 34%;
     margin: 0 0 0 auto; } }
 
-.c-featured-property__detail-grid > div {
-  width: 25%;
-  text-align: center;
-  padding: 0 0.5em;
-  float: left; }
-  .c-featured-property__detail-grid > div img {
-    width: 4em; }
-  @media all and (min-width: 900px) {
-    .c-featured-property__detail-grid > div {
-      float: none;
-      width: 50%; } }
+.c-featured-property__detail-grid {
+  margin: 1em -0.5em;
+  overflow: hidden; }
+  .c-featured-property__detail-grid > div {
+    width: 25%;
+    text-align: center;
+    padding: 0 0.5em 1em;
+    float: left; }
+    .c-featured-property__detail-grid > div img {
+      height: 2em;
+      margin-bottom: 0; }
+    .c-featured-property__detail-grid > div figcaption {
+      font-size: 0.75rem; }
+    @media all and (min-width: 900px) {
+      .c-featured-property__detail-grid > div {
+        float: none;
+        width: 48%;
+        display: inline-block; } }
 
 .c-featured-property__detail-info {
-  display: flex;
   margin: 1em 0; }
-  @media all and (min-width: 900px) {
-    .c-featured-property__detail-info {
-      flex-direction: column; } }
 
 .c-featured-property__detail-location {
   margin: 0 auto 0.25em 0; }
   .c-featured-property__detail-location .fa {
     margin: 0 0.5em 0 0; }
-
-.c-featured-property__detail-grid {
-  overflow: hidden;
-  margin: 1em -0.5em; }
 
 .c-featured-property__description a {
   color: #fff;
@@ -1881,14 +1880,11 @@ abbr {
 
 @media all and (min-width: 900px) {
   .c-featured-property__description {
-    position: absolute;
     width: 34%;
     font-size: 0.75rem;
-    right: 1em;
     color: #808080;
-    height: 15em;
-    overflow: hidden;
-    padding: 4em 0 0; }
+    padding: 4em 0 0;
+    float: right; }
     .c-featured-property__description a {
       color: #222222;
       text-transform: uppercase; }
@@ -2038,7 +2034,7 @@ progress[value]::-webkit-progress-bar {
  * Layout container
  */
 .l {
-  clear: left;
+  clear: both;
   max-width: 80em;
   margin: 1rem auto;
   padding: 0 1rem; }
