@@ -44,7 +44,58 @@
 		{
 			"headline" : "This is the headline for the inset block"
 		}
-	],
+	  ],
+	"testimonials" : {
+	  "sectionTitle": "What they say",
+	  "mediaList": [
+		{
+		  "noUrl" : true,
+		  "url": "",
+		  "imgSquare" : {
+			"src": "https://www.hatched.co.uk/static/img/content/reviewer-1.jpg",
+			"alt": "Testimonial 1"
+		  },
+		  "headline" : {
+			"short" : "Testimonial 1"
+		  },
+		  "excerpt" : {
+			"medium" : "Lorem ipsum dolor sit amet, quo indoctum qualisque no, te viris ludus labores his, malis fabellas molestiae ut vix. Velit timeam mel ex, nec te veniam malorum tincidunt. Eam quis everti an, mea albucius voluptua principes ei, sit ea odio dolore euripidis. Cu harum iusto maluisset nam, legere bonorum definitiones cu mel."
+		  }
+
+		},
+		{
+		  "noUrl" : true,
+		  "url": "",
+		  "imgSquare" : {
+			"src": "https://www.hatched.co.uk/static/img/content/reviewer-2.jpg",
+			"alt": "Testimonial 2"
+		  },
+		  "headline" : {
+			"short" : "Testimonial 2"
+		  },
+		  "excerpt" : {
+			"medium" : "Lorem ipsum dolor sit amet, quo indoctum qualisque no, te viris ludus labores his, malis fabellas molestiae ut vix. Velit timeam mel ex, nec te veniam malorum tincidunt. Eam quis everti an, mea albucius voluptua principes ei, sit ea odio dolore euripidis. Cu harum iusto maluisset nam, legere bonorum definitiones cu mel."
+		  }
+
+		},
+		{
+		  "noUrl" : true,
+		  "url": "",
+		  "imgSquare" : {
+			"src": "http://www.butlercatholic.org/wp-content/uploads/2015/02/Sommers-Family-450x450.jpg",
+			"alt": "Testimonial 3"
+		  },
+		  "headline" : {
+			"short" : "Testimonial 3"
+		  },
+		  "excerpt" : {
+			"medium" : "Lorem ipsum dolor sit amet, quo indoctum qualisque no, te viris ludus labores his, malis fabellas molestiae ut vix. Velit timeam mel ex, nec te veniam malorum tincidunt. Eam quis everti an, mea albucius voluptua principes ei, sit ea odio dolore euripidis. Cu harum iusto maluisset nam, legere bonorum definitiones cu mel."
+		  }
+
+		}
+	  ],
+	  "btnText" : ""
+	},
 	"latestPosts" : {
 		"sectionTitle": "Latest From the Blog",
 		"mediaList": [
@@ -98,6 +149,7 @@
 		"mediaList": [
 			{
 				"url" : "",
+			  	"noUrl": true,
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar1.jpg",
@@ -113,6 +165,7 @@
 			},
 			{
 				"url" : "",
+			  	"noUrl": true,
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar2.jpg",
@@ -128,6 +181,7 @@
 			},
 			{
 				"url" : "",
+			  	"noUrl": true,
 				"styleModifier" : "small",
 				"imgSquare" : {
 					"src": "../../../images/sample/avatar3.jpg",
@@ -147,7 +201,7 @@
   "latestProperties" : {
 	"mediaList": [
 	  {
-		"url" : "",
+		"url" : "link.pages-property-detail",
 		"styleModifier" : "small",
 		"imgSquare" : {
 		  "src": "http://eatest.energisededge.com/wp-content/uploads/2017/01/W4-garden.jpg",
@@ -162,7 +216,7 @@
 
 	  },
 	  {
-		"url" : "",
+		"url" : "link.pages-property-detail",
 		"styleModifier" : "small",
 		"imgSquare" : {
 		  "src": "http://eatest.energisededge.com/wp-content/uploads/2017/01/W4-lounge.jpg",
@@ -177,7 +231,7 @@
 
 	  },
 	  {
-		"url" : "",
+		"url" : "link.pages-property-detail",
 		"styleModifier" : "small",
 		"imgSquare" : {
 		  "src": "http://eatest.energisededge.com/wp-content/uploads/2017/01/Front-W4-front.jpg",
@@ -193,5 +247,10 @@
 	  }
 	],
 	"btnText" : "View All Staff"
+  },
+  "subscribe": {
+	"field": {
+	  "label": "Enter Your Email Address"
+	}
   }
 }

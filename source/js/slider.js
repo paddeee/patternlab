@@ -60,7 +60,21 @@ jQuery(document).ready(function ($) {
 
 	if ($heroSlider) {
 
+		if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv 11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1))
+		{
+			ieNoSlider();
+			return;
+		}
+
 		heroSlider = new $JssorSlider$("HeroSlider", sliderOptions);
+
+		function ieNoSlider() {
+			var firstImage = document.querySelector('.slider__slides div:first-child');
+
+			firstImage.style.display = 'block';
+			firstImage.style.visibility = 'visible';
+			$sliderArrowsContainer.classList.add('is-hidden');
+		}
 
 		function ScaleSlider() {
 			var refSize = heroSlider.$Elmt.parentNode.clientWidth;

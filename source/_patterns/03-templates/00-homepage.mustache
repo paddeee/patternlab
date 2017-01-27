@@ -3,7 +3,6 @@
 
 	{{# hero }}
 		{{> organisms-slider-hero }}
-
 	{{/ hero}}
 
     {{> organisms-page-header }}
@@ -20,23 +19,28 @@
 
     {{> organisms-featured-property }}
 
+    <div class="l l--two-col  l-after-float">
+        <div class="l-main">
+            {{# testimonials }}
+                {{> organisms-section-media-list }}
+            {{/ testimonials }}
+        </div><!--end .l-main-->
+
+        <div class="l-sidebar">
+            {{# featuredPeople }}
+                {{> organisms-section-media-list }}
+            {{/ featuredPeople }}
+        </div><!--end .l-sidebar-->
+
+    </div><!--end l--two-col-->
+
     <div class="l">
-        {{> molecules-blockquote }}
+        {{> organisms-affiliated }}
     </div>
 
-	<div class="l l--two-col">
-		<div class="l-main">
-			{{# latestPosts }}
-			{{> organisms-section-media-list }}
-			{{/ latestPosts }}
-		</div><!--end .l-main-->
+    {{# subscribe }}
+        {{> organisms-subscribe }}
+    {{/ subscribe }}
 
-		<div class="l-sidebar">
-			{{# featuredPeople }}
-			{{> organisms-section-media-list }}
-			{{/ featuredPeople }}
-		</div><!--end .l-sidebar-->
-
-	</div><!--end l--two-col-->
+    {{> organisms-footer }}
 </main>
-{{> organisms-footer }}

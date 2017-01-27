@@ -146,6 +146,18 @@
     },
     "hero": true,
     "alert": true,
+    "testimonials" : {
+        "mediaList": [
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "textButton" : false,
+        "pagination" : false
+    },
     "latestPosts" : {
         "mediaList": [
             {
@@ -156,7 +168,7 @@
             }
         ],
         "textButton" : false,
-        "pagination" : true
+        "pagination" : false
     },
     "featuredPosts" : {
         "mediaList": [
@@ -270,7 +282,7 @@
 		}				
 	],			
     "sectionBlock" : true,
-    "textButton" : true,
+    "textButton" : false,
 	"overlayMessage" : "This is an Overlay Message",
 	"overlayAction" : "Overlay CTA"
 }

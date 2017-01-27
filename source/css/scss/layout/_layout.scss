@@ -6,13 +6,15 @@
  * Layout container
  */
 .l {
-  clear: both;
   max-width: $l-max-width;
   margin: 1rem auto;
   padding: 0 1rem;
 }
 
-
+.l-after-float {
+  clear: both;
+  padding: 2rem 1rem 0;
+}
 
 
 

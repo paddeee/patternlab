@@ -6,6 +6,7 @@
     #VARIABLES
 \*------------------------------------*/
 $featured-property-bp: 900px;
+$affiliated-link-bp: 700px;
 
 /**
  * Section
@@ -284,7 +285,7 @@ $featured-property-bp: 900px;
   > div {
     width: 25%;
     text-align: center;
-    padding: 0 $pad-half $pad;
+    padding: $pad-half;
     float: left;
 
     img {
@@ -297,9 +298,21 @@ $featured-property-bp: 900px;
     }
 
     @media all and (min-width: $featured-property-bp) {
-      float: none;
       width: 48%;
       display: inline-block;
+    }
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+
+    .c-featured-property__grid1,
+    .c-featured-property__grid3 {
+      border-right: 1px solid rgba(255, 255, 255, 0.20);
+    }
+
+    .c-featured-property__grid1,
+    .c-featured-property__grid2 {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.20);
     }
   }
 }
@@ -345,4 +358,71 @@ $featured-property-bp: 900px;
       padding: 0 1em;
     }
   }
+}
+
+
+/*------------------------------------*\
+	#AFFILIATED LINK SECTION
+\*------------------------------------*/
+.c-affiliated__grid {
+  margin: 0 -0.5em;
+  overflow: hidden;
+
+  > div {
+    width: 100%;
+    text-align: center;
+    padding: 0 $pad-half $pad-half;
+    float: left;
+
+    img {
+      width: 98%;
+    }
+
+    @media all and (min-width: $bp-small-2) {
+      width: 50%;
+      display: inline-block;
+    }
+
+    @media all and (min-width: $bp-med-2) {
+      width: 25%;
+      display: inline-block;
+    }
+  }
+}
+
+
+/*------------------------------------*\
+	#SUBSCRIBE FOR UPDATES SECTION
+\*------------------------------------*/
+.c-subscribe {
+  color: $color-white;
+  margin-bottom: $space-half;
+  padding: 2.5em 1.5em 4em;
+  position: relative;
+
+  > h2 {
+    text-transform: uppercase;
+  }
+}
+
+.c-subscribe__tint {
+  background-color: $color-primary;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.c-subscribe__tint:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/valuation-bg.png');
+  background-size: cover;
+  opacity: 0.2;
 }

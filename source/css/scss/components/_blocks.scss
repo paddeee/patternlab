@@ -113,15 +113,15 @@ $c-block-hero__find-property-bp: 800px;
 	display: flex;
 	transition: all $anim-speed-quick $anim-ease;
 
-	&:hover, &:focus {
-		.c-block-media__headline {
-			color: $color-primary;
-		}
-	}
-
 	&--small {
 		font-size: $font-size-small;
 	}
+}
+
+a.c-block-media:hover, a.c-block-media:focus {
+    .c-block-media__headline {
+        color: $color-primary;
+    }
 }
 
 /**
@@ -198,6 +198,7 @@ $c-block-hero__find-property-bp: 800px;
 	position: relative;
     overflow: hidden;
     border-radius: $border-radius;
+    width: 100%;
 }
  
 /**
