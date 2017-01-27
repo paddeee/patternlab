@@ -1097,13 +1097,19 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; }
+  z-index: 1000;
+  height: 136px; }
+  .header .c-primary-nav--is-active {
+    top: 136px; }
 
 .header__contact-info {
   align-items: center;
   background-color: #900603;
   display: flex;
-  height: 2.6rem; }
+  height: 2.6rem;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s; }
   .header__contact-info .fa-mobile,
   .header__contact-info .fa-envelope {
     padding: 0 0.5em 0 0; }
@@ -1116,6 +1122,15 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
     color: #fff; }
   .header__contact-info a:hover {
     color: #d9d9d9; }
+
+.header--shrink .header__contact-info {
+  height: 0; }
+
+.header--shrink .c-logo {
+  max-height: 36px; }
+
+.header--shrink .c-primary-nav--is-active {
+  top: 63px; }
 
 @media all and (max-width: 770px) {
   .header__contact-text {
@@ -1186,7 +1201,11 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
 \*------------------------------------*/
 .c-logo {
   display: block;
-  max-width: 160px; }
+  max-height: 72px;
+  max-width: 160px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
   .c-box__header .c-logo {
     max-width: 12em;
     margin: 0 auto; }
@@ -1583,12 +1602,16 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
  * Navigation tag
  */
 .c-primary-nav {
-  display: none; }
+  display: none;
+  height: 80vh;
+  overflow: auto;
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  transition: top 0.3s; }
   .c-primary-nav--is-active {
     display: block;
     position: absolute;
     padding: 1em 2em;
-    top: 67px;
     right: 0;
     box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -1596,6 +1619,7 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
   @media all and (min-width: 66em) {
     .c-primary-nav {
       display: block;
+      height: auto;
       margin-right: 1rem; } }
 
 /**
