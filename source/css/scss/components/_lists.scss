@@ -106,7 +106,7 @@
  
 .c-tile-list__item {
 	width: 100%;
-	margin-bottom: 1em;
+	margin-bottom: $space;
 	position: relative;
 	
 	&:nth-child(2n) {
@@ -116,6 +116,17 @@
 	@media all and (min-width: 55rem) {
 		width: 50%;
 		margin: 0;
-		padding: 0 1em 1em 0;
+		padding: 0 $pad $pad 0;
 	}
+}
+
+/**
+ * Property list
+ */
+.c-property-list__item.gi {
+  padding: $pad $pad 0;
+
+  @media all and (min-width: $bp-med) {
+	padding: $pad;
+  }
 }

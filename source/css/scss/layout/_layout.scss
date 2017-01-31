@@ -11,11 +11,15 @@
   padding: 0 1rem;
 }
 
-.l-after-float {
+.l--after-float {
   clear: both;
   padding: 2rem 1rem 0;
 }
 
+.l--align-center {
+  display: flex;
+  justify-content: center;
+}
 
 
 /*------------------------------------*\
@@ -75,7 +79,7 @@
  * Grid item
  */
 .gi {
-	padding: $pad-half;
+	padding: $pad;
 
 	img {
 		display: block;

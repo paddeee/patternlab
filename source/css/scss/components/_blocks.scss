@@ -296,3 +296,99 @@ a.c-block-media:hover, a.c-block-media:focus {
     font-weight: normal;
     font-size: $font-size-med;
 }
+
+
+/*------------------------------------*\
+	#PROPERTY ITEM
+\*------------------------------------*/
+.c-property-item {
+
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+        margin: $space-double 0 $space;
+    }
+
+    @media all and (min-width: $bp-med) {
+
+        hr {
+            display: none;
+        }
+    }
+}
+
+.c-property-item__thumb-holder {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    @media all and (min-width: $bp-med) {
+        height: 145px;
+    }
+
+    img {
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+
+.c-property-item__small-thumbs {
+    margin: $pad-quarter 0 0;
+    position: relative;
+}
+
+.c-property-item__small-thumb {
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+    overflow: hidden;
+    height: 60px;
+
+    @media all and (min-width: $bp-med) {
+        height: 48px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.c-property-item__small-thumb:last-child {
+    margin-right: 0;
+}
+
+.c-property-item__overview {
+    clear: both;
+    padding: $pad-half 0 0;
+
+    > p {
+        color: $color-primary;
+        font-size: $font-size-small-2;
+        font-weight: bold;
+        margin: 0 0 $pad-half;
+    }
+}
+
+.c-property-item__info {
+    display: flex;
+
+    > div {
+        align-items: center;
+        color: $color-gray-73;
+        display: flex;
+        margin: $pad-half $pad-and-half $pad-half 0;
+
+        .fa {
+            margin: 0 $pad-quarter 0 0;
+        }
+
+        .fa:before {
+            color: $color-gray-35;
+        }
+    }
+}
+
+.c-property-item__description {
+    font-size: $font-size-small-2;
+}

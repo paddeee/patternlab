@@ -7,6 +7,7 @@
 \*------------------------------------*/
 $featured-property-bp: 900px;
 $affiliated-link-bp: 700px;
+$title-pagination-bp: 800px;
 
 /**
  * Section
@@ -425,4 +426,25 @@ $affiliated-link-bp: 700px;
   background-image: url('../images/valuation-bg.png');
   background-size: cover;
   opacity: 0.2;
+}
+
+/*------------------------------------*\
+	#TITLE/PAGINATION
+\*------------------------------------*/
+.c-title-pagination {
+  align-items: center;
+  display: flex;
+
+  > h1 {
+    margin: 0 auto 0 0;
+  }
+
+  @media all and (max-width: $title-pagination-bp) {
+    display: block;
+
+    > h1 {
+      margin: 0 0 0.5em 0.5em;
+      text-align: left;
+    }
+  }
 }

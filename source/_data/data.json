@@ -5,6 +5,7 @@
     },
     "title" : "Energised Agent - StyleGuide",
     "pageTitle": "Page Title",
+    "listingTitle": "Listing Title",
     "htmlClass": "pl",
     "bodyClass": "body",
     "btnText" : "Button",
@@ -222,11 +223,97 @@
         ],
         "pagination" : false
     },
-
-    "toutList": [
-        { },
-        { },
-        { }
+    "propertyList": [
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        },
+        {
+            "mainImage": "/images/fpo_16x9.png",
+            "thumb1": "/images/fpo_16x9.png",
+            "thumb2": "/images/fpo_16x9.png",
+            "thumb3": "/images/fpo_16x9.png",
+            "title": "Street & Area",
+            "town": "Town/City",
+            "price": "Asking Price",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
+        }
     ],
     "mediaList": [
         { },
@@ -268,18 +355,7 @@
 		{
 			"url" : "#",
 			"number" : "7"
-		},
-		{
-			"url" : "#",
-			"number" : "8"
-		},	{
-			"url" : "#",
-			"number" : "9"
-		},
-		{
-			"url" : "#",
-			"number" : "10"
-		}				
+		}
 	],			
     "sectionBlock" : true,
     "textButton" : false,

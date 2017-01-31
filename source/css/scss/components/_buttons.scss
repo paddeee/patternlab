@@ -96,6 +96,23 @@
 	}
 }
 
+.c-text-btn--branded-button {
+  font-size: $font-size-small-2;
+  padding: $pad-half;
+  background:  $color-primary;
+  color: $color-white;
+
+  &:hover, &:focus {
+	color: $color-white;
+	opacity: 0.8;
+
+  }
+
+  &:after {
+	background: none;
+  }
+}
+
 /**
  * Button on overlay
  */
