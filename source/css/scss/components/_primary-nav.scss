@@ -43,7 +43,11 @@ $primary-nav-bp: 45em;
  * Nav Links
  */
 .c-primary-nav__link {
-	font-weight: bold;
-	display: block;
-	padding: 1rem;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 1rem;
+
+  @media all and (min-width: $primary-nav-bp) {
+    padding: 1rem;
+  }
 }
