@@ -125,3 +125,101 @@
 .white-colour {
     color: $color-white;
 }
+
+/**
+ * Corner image ribbons
+ */
+.corner-ribbon {
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    background: #e43;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 0.6em;
+    line-height: 25px;
+    width: 150px;
+
+    @media all and (min-width: $bp-small-2) and (max-width: $bp-med) {
+        font-size: $font-size-med;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    &.top-left {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        left: -50px;
+        top: 15px;
+
+        @media all and (min-width: $bp-small-2) and (max-width: $bp-med) {
+            top: 25px;
+            left: -55px;
+        }
+    }
+
+    &.top-right {
+        top: 15px;
+        right: -50px;
+        left: auto;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+
+        @media all and (min-width: $bp-small-2) and (max-width: $bp-med) {
+            top: 25px;
+            right: -55px;
+        }
+    }
+
+    &.bottom-left {
+        top: auto;
+        bottom: 15px;
+        left: -50px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+
+        @media all and (min-width: $bp-small-2) and (max-width: $bp-med) {
+            bottom: 25px;
+            left: -55px;
+        }
+    }
+
+    &.bottom-right {
+        top: auto;
+        right: -50px;
+        bottom: 15px;
+        left: auto;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+
+        @media all and (min-width: $bp-small-2) and (max-width: $bp-med) {
+            right: -55px;
+            bottom: 25px;
+        }
+    }
+
+    &.bottom-centre {
+        top: auto;
+        bottom: 5px;
+        left: calc(50% - 50px);
+        width: 100px;
+
+        @media all and (min-width: $bp-small-2) and (max-width: $bp-med) {
+            bottom: 15px;
+            left: calc(50% - 80px);
+            width: 160px;
+        }
+    }
+
+    &.white{background: #f0f0f0; color: #555;}
+    &.black{background: #333;}
+    &.grey{background: #999;}
+    &.blue{background: #39d;}
+    &.green{background: #2c7;}
+    &.turquoise{background: #1b9;}
+    &.purple{background: #95b;}
+    &.red{background: #e43;}
+    &.orange{background: #e82;}
+    &.yellow{background: #ec0;}
+}

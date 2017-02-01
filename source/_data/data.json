@@ -61,32 +61,30 @@
     "featuredPropertyImage": "/images/fpo_16x9.png",
     "primaryNav" : [
         {
-            "label": "Home",
-            "url": "link.pages-home"
-        },
-        {
-            "label": "For Sale",
-            "url": "link.pages-for-sale"
-        },
-        {
-            "label": "To Rent",
-            "url": "link.pages-to-rent"
-        },
-        {
             "label": "Landlords",
             "url": "link.pages-landlords"
         },
         {
             "label": "About",
-            "url": "link.about"
+            "url": "link.pages-about"
         },
         {
             "label": "Blog",
-            "url": "link.pages-blog"
+            "url": "link.pages-blog-index"
         },
         {
             "label": "Contact",
-            "url": "link.pages-contact-us"
+            "url": "link.pages-contact"
+        }
+    ],
+    "mobileNav": [
+        {
+            "label": "Sale",
+            "url": "link.pages-listing-sale"
+        },
+        {
+            "label": "Rent",
+            "url": "link.pages-listing-rent"
         }
     ],
     "footerNav" : [
@@ -96,11 +94,11 @@
         },
         {
             "label": "For Sale",
-            "url": "link.pages-for-sale"
+            "url": "link.pages-listing-sale"
         },
         {
             "label": "To Rent",
-            "url": "link.pages-to-rent"
+            "url": "link.pages-listing-rent"
         },
         {
             "label": "Landlords",
@@ -108,15 +106,15 @@
         },
         {
             "label": "About",
-            "url": "link.about"
+            "url": "link.pages-about"
         },
         {
             "label": "Blog",
-            "url": "link.pages-blog"
+            "url": "link.pages-blog-index"
         },
         {
             "label": "Contact",
-            "url": "link.pages-contact-us"
+            "url": "link.pages-contact"
         }
     ],
     "url" : "#",

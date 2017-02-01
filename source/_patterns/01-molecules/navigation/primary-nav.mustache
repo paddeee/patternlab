@@ -2,9 +2,13 @@
 
 	<ul class="c-primary-nav__list">
 
-		{{# primaryNav }}
+		{{# mobileNav }}
 		<li class="c-primary-nav__item"><a href="{{ url }}" class="c-primary-nav__link">{{ label }}</a></li>
-		{{/ primaryNav }}
+		{{/ mobileNav }}
+
+        {{# primaryNav }}
+            <li class="c-primary-nav__item  c-primary-nav__item--wide"><a href="{{ url }}" class="c-primary-nav__link">{{ label }}</a></li>
+        {{/ primaryNav }}
 
 	</ul><!--end c-primary-nav__list-->
 
