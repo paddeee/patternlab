@@ -223,6 +223,7 @@
     },
     "propertyList": [
         {
+            "propertyID": "PropertyID-1",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -233,6 +234,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-2",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -243,6 +245,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-3",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -253,6 +256,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-4",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -263,6 +267,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-5",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -273,6 +278,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-6",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -283,6 +289,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-7",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -293,6 +300,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-8",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -303,6 +311,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!"
         },
         {
+            "propertyID": "PropertyID-9",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
