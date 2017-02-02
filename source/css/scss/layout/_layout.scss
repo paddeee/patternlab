@@ -30,8 +30,11 @@
  * 2 column layout
  */
 .l--two-col {
+
+  @media all and (min-width: $bp-large) {
 	display: flex;
 	flex-direction: column;
+  }
 
 	.l-main {
 		@media all and (min-width: $bp-large) {
@@ -47,6 +50,7 @@
 		
 		@media all and (min-width:$bp-small-3) {
 			display: flex;
+		  height: 100%;
 		}
 
 
