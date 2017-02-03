@@ -19,7 +19,7 @@
   	transition: color 0.2s ease;
 
 	&:hover, &:focus {
-		background: $color-gray-73;
+		background: $color-gray-87;
 		color: $color-white;
 	}
 
@@ -99,7 +99,6 @@
 .c-text-btn--branded-button {
   font-size: $font-size-small-2;
   padding: $pad-half;
-  background:  $color-primary;
   color: $color-white;
 
   &:hover, &:focus {

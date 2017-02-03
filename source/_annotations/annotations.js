@@ -32,11 +32,6 @@
   },
   {
     "el": "#PropertyListMap",
-    "title" : "Search Area",
-    "comment": "Waiting on redesigns as per Martin's email."
-  },
-  {
-    "el": "#PropertyListMap",
     "title" : "Select Property Map",
     "comment": "Can't do more than add a Google Map until the functionality exists."
   },

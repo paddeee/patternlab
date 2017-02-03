@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    #BLOCKS
+\*------------------------------------*/
+/**
+ * 1) Blocks are collections of text and/or images/media working together as a unit.
+ */
+
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+$c-block-hero__find-property-bp: 930px;
+
+/**
+ * Hero Box
+ * 1) This sits overtop of the hero image when space permits
+ */
+.c-block-hero__find-property {
+    background-color: $color-primary;
+
+    @media all and (min-width: $c-block-hero__find-property-bp) {
+        background-color: $color-primary-dim-50;
+    }
+
+    .c-block-hero:hover &,
+    .c-block-hero:focus & {
+        background-color: $color-primary;
+    }
+ }
+
+.c-form--listing-search {
+    background-color: $color-primary;
+}
+
+
+/*------------------------------------*\
+	#MEDIA BLOCK
+\*------------------------------------*/
+
+/**
+ * 1) Media block contains an image (or some other media) on the left
+ * and text on the right.
+ * 2) For more info, read http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
+ */
+a.c-block-media:hover, a.c-block-media:focus {
+    .c-block-media__headline {
+        color: $color-primary;
+    }
+}
+
+
+/*------------------------------------*\
+	#PROPERTY ITEM
+\*------------------------------------*/
+
+.c-property-item__overview {
+
+    > p {
+        color: $color-primary;
+    }
+}

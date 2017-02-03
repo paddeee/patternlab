@@ -1313,16 +1313,18 @@ abbr {
   .c-form--listing-search .c-form__sale-or-rent {
     display: none; }
   .c-form--listing-search .c-form__sale-or-rent-form h2 {
-    margin: 0 0 0.5em; }
+    margin: 0.5em 0; }
   .c-form--listing-search .c-form__sale-or-rent-form > p {
     display: none; }
   .c-form--listing-search .c-form__sale-or-rent-form .c-field,
   .c-form--listing-search .c-form__sale-or-rent-form .c-combined-field {
     font-size: 0.75rem;
     margin: 0 auto 0.65rem; }
-  @media all and (min-width: 930px) {
+  @media all and (min-width: 780px) {
     .c-form--listing-search .c-form__sale-or-rent-form {
-      padding: 1em 0 0.5em; } }
+      padding: 1em 0 0.5em; }
+      .c-form--listing-search .c-form__sale-or-rent-form h2 {
+        margin: 0 0 0.5em; } }
   .c-form--listing-search .c-form__actions {
     margin: 0.5em 0; }
 
@@ -1571,7 +1573,7 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
 	 * Active button
 	 */ }
   .c-btn:hover, .c-btn:focus {
-    background: #444444;
+    background: #222222;
     color: #fff; }
   .c-btn.disabled {
     background: #d9d9d9;
@@ -1778,6 +1780,8 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
   .c-form--stacked-centre .c-combined-field {
     margin: 0 auto 1rem;
     width: 92%; }
+    .c-form--stacked-centre .c-combined-field select {
+      width: 100%; }
 
 /**
  * Search form
@@ -2391,11 +2395,13 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
  * Nav Links
  */
 .c-primary-nav__link {
-  font-weight: bold;
   display: block;
-  padding: 0.5rem 1rem; }
-  @media all and (min-width: 45em) {
+  font-weight: bold;
+  font-size: 0.875rem;
+  padding: 0.5rem; }
+  @media all and (min-width: 20em) {
     .c-primary-nav__link {
+      font-size: 1rem;
       padding: 1rem; } }
 
 /**
@@ -2932,7 +2938,7 @@ progress[value]::-webkit-progress-bar {
   @media all and (min-width: 50em) {
     .l--two-col .l-main {
       width: 70%;
-      padding-right: 1em; } }
+      padding-right: 2em; } }
   @media all and (min-width: 39.8em) {
     .l--two-col .l-sidebar {
       display: flex;
@@ -2941,7 +2947,7 @@ progress[value]::-webkit-progress-bar {
     .l--two-col .l-sidebar {
       flex-direction: column;
       width: 30%;
-      padding: 0 0 0 1em; } }
+      padding: 0 0 0 2em; } }
   @media all and (min-width: 50em) {
     .l--two-col {
       flex-direction: row; } }

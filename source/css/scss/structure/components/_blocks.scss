@@ -9,6 +9,7 @@
     #VARIABLES
 \*------------------------------------*/
 $c-block-hero__find-property-bp: 930px;
+$header-contact-info-bp: 780px;
 
 
 /*------------------------------------*\
@@ -47,13 +48,11 @@ $c-block-hero__find-property-bp: 930px;
  * 1) This sits overtop of the hero image when space permits
  */
 .c-block-hero__find-property {
-    background-color: $color-primary;
     color: $color-white;
     font-size: $font-size-small;
     transition: all $anim-speed-quick $anim-ease;
 
     @media all and (min-width: $c-block-hero__find-property-bp) {
-        background-color: $color-primary-dim-50;
         position: absolute;
         bottom: 0;
         left: 5vw;
@@ -100,7 +99,6 @@ $c-block-hero__find-property-bp: 930px;
 }
 
 .c-form--listing-search {
-    background-color: $color-primary;
     color: $color-white;
 
     .c-form__sale-or-rent {
@@ -110,7 +108,7 @@ $c-block-hero__find-property-bp: 930px;
     .c-form__sale-or-rent-form {
 
         h2 {
-            margin: 0 0 $space-half;
+            margin: $space-half 0;
         }
 
         > p {
@@ -123,8 +121,12 @@ $c-block-hero__find-property-bp: 930px;
             margin: 0 auto 0.65rem;
         }
 
-        @media all and (min-width: $c-block-hero__find-property-bp) {
+        @media all and (min-width: $header-contact-info-bp) {
             padding: $pad 0 $pad-half;
+
+            h2 {
+                margin: 0 0 $space-half;
+            }
         }
     }
 
@@ -353,7 +355,6 @@ a.c-block-media:hover, a.c-block-media:focus {
 }
 
 .c-property-item--active {
-    border: solid 1px $color-primary;
     box-shadow: 0px 0px 9px #888888;
     padding: 13px;
 }

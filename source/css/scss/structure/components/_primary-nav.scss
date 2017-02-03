@@ -6,6 +6,7 @@
     #VARIABLES
 \*------------------------------------*/
 $primary-nav-bp: 45em;
+$primary-nav-bp-small: 20em;
 
 
 /**
@@ -43,11 +44,13 @@ $primary-nav-bp: 45em;
  * Nav Links
  */
 .c-primary-nav__link {
-  font-weight: bold;
   display: block;
-  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: $font-size-small-2;
+  padding: 0.5rem;
 
-  @media all and (min-width: $primary-nav-bp) {
+  @media all and (min-width: $primary-nav-bp-small) {
+    font-size: $font-size-med;
     padding: 1rem;
   }
 }

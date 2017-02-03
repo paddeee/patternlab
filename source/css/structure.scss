@@ -72,8 +72,8 @@ Atomic design is philosophically complimentary with these CSS approaches:
 /*------------------------------------*\
     $ABSTRACTS
 \*------------------------------------*/
-@import "scss/abstracts/mixins";
-@import "scss/abstracts/variables";
+@import "scss/structure/abstracts/mixins";
+@import "scss/structure/abstracts/variables";
 
 
 
@@ -82,19 +82,19 @@ Atomic design is philosophically complimentary with these CSS approaches:
 /*------------------------------------*\
     $BASE
 \*------------------------------------*/
-@import "scss/base/body";
-@import "scss/base/animation";
-@import "scss/base/forms";
-@import "scss/base/global-classes";
-@import "scss/base/headings";
-@import "scss/base/links";
-@import "scss/base/lists";
-@import "scss/base/main";
-@import "scss/base/map";
-@import "scss/base/media";
-@import "scss/base/reset";
-@import "scss/base/tables";
-@import "scss/base/text";
+@import "scss/structure/base/body";
+@import "scss/structure/base/animation";
+@import "scss/structure/base/forms";
+@import "scss/structure/base/global-classes";
+@import "scss/structure/base/headings";
+@import "scss/structure/base/links";
+@import "scss/structure/base/lists";
+@import "scss/structure/base/main";
+@import "scss/structure/base/map";
+@import "scss/structure/base/media";
+@import "scss/structure/base/reset";
+@import "scss/structure/base/tables";
+@import "scss/structure/base/text";
 
 
 
@@ -103,25 +103,25 @@ Atomic design is philosophically complimentary with these CSS approaches:
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
-@import "scss/components/blocks";
-@import "scss/components/buttons";
-@import "scss/components/carousels";
-@import "scss/components/footer";
-@import "scss/components/footer-nav";
-@import "scss/components/forms";
-@import "scss/components/fields";
-@import "scss/components/header";
-@import "scss/components/logo";
-@import "scss/components/icons";
-@import "scss/components/lists";
-@import "scss/components/messaging";
-@import "scss/components/primary-nav";
-@import "scss/components/nav";
-@import "scss/components/page-header";
-@import "scss/components/sections";
-@import "scss/components/text";
-@import "scss/components/box";
-@import "scss/components/feedback";
+@import "scss/structure/components/blocks";
+@import "scss/structure/components/buttons";
+@import "scss/structure/components/carousels";
+@import "scss/structure/components/footer";
+@import "scss/structure/components/footer-nav";
+@import "scss/structure/components/forms";
+@import "scss/structure/components/fields";
+@import "scss/structure/components/header";
+@import "scss/structure/components/logo";
+@import "scss/structure/components/icons";
+@import "scss/structure/components/lists";
+@import "scss/structure/components/messaging";
+@import "scss/structure/components/primary-nav";
+@import "scss/structure/components/nav";
+@import "scss/structure/components/page-header";
+@import "scss/structure/components/sections";
+@import "scss/structure/components/text";
+@import "scss/structure/components/box";
+@import "scss/structure/components/feedback";
 
 
 
@@ -130,4 +130,4 @@ Atomic design is philosophically complimentary with these CSS approaches:
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
-@import "scss/layout/layout";
+@import "scss/structure/layout/layout";

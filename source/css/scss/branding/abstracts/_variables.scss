@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+
+/*
+ * 1) Color variables involve a two-tier system to keep colors in sync. The
+ *    first tier defines the brand and neutral colors, and the second tier
+ *    defines the application of those colors.
+ */
+
+/*
+ * Brand Colors
+ * 1) Brand color variables use English names to define colors to make palettes easier to
+ *    identify. Names are generated using this tool: http://chir.ag/projects/name-that-color/
+ * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
+ *    second-tier application colors.
+ *
+ */
+ $color-primary: rgba(144,6,3,1);
+ $color-secondary: #DB4437;
+ $color-primary-dim-50: rgba(144,6,3,0.5);
