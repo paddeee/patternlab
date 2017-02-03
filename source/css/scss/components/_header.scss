@@ -5,7 +5,7 @@
 /*------------------------------------*\
     #VARIABLES
 \*------------------------------------*/
-$header-contact-info-bp: 770px;
+$header-contact-info-bp: 780px;
 
 /**
  * Header
@@ -16,14 +16,6 @@ $header-contact-info-bp: 770px;
   left: 0;
   width: 100%;
   z-index: 1000;
-  height: 136px;
-
-  .c-primary-nav {
-
-    &--is-active {
-      top: 136px;
-    }
-  }
 }
 
 .header__contact-info {

@@ -8,9 +8,18 @@
 .c-form--stacked-centre {
   text-align: center;
 
+  .c-form__split {
+	align-items: center;
+	display: flex;
+
+	.c-field {
+	  width: 42%;
+	}
+  }
+
   .c-field {
 	margin: 0 auto 1rem;
-	width: 50%;
+	width: 92%;
 
 	select {
 	  width: 100%;
@@ -19,7 +28,7 @@
 
   .c-combined-field {
 	margin: 0 auto 1rem;
-	width: 50%;
+	width: 92%;
   }
 }
 
