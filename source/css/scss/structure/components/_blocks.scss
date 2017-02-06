@@ -64,7 +64,7 @@ $header-contact-info-bp: 780px;
 .c-form__sale-or-rent {
     display: flex;
     justify-content: center;
-    padding: $pad 0 0;
+    padding: $pad-double 0 0;
 
     @media all and (min-width: $c-block-hero__find-property-bp) {
         position: absolute;

@@ -191,6 +191,167 @@ $title-pagination-bp: 800px;
 }
 
 /*------------------------------------*\
+	#SELECTED PROPERTY SECTION
+\*------------------------------------*/
+.c-selected-property {
+  color: $color-white;
+  margin-bottom: $space-half;
+  padding: $pad-and-half;
+  position: relative;
+
+  > h2 {
+    margin: 0.5em 0 1em 0;
+    text-transform: uppercase;
+  }
+}
+
+.c-selected-property__title {
+  display: inline-block;
+  background: $color-black;
+  padding: $pad-quarter $pad-half;
+  text-transform: uppercase;
+}
+
+.c-selected-property__tint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.c-selected-property__tint:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('http://eatest.energisededge.com/wp-content/uploads/2017/01/Living-Room.jpg');
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.c-selected-property__left {
+  margin: 1em 0;
+
+  img {
+    width: 100%;
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+    float: left;
+    width: 60%;
+  }
+}
+
+.c-selected-property__description {
+  margin: $space 0 0;
+
+  ul {
+    list-style-type: circle;
+    margin: 0px 0 0 4em;
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+    color: $color-gray-65;
+
+    ul {
+      color: $color-black;
+    }
+  }
+}
+
+.c-selected-property__detail-wrapper {
+
+  @media all and (min-width: $featured-property-bp) {
+    width: 26%;
+    margin: 0 0 0 auto;
+  }
+}
+
+.c-selected-property__detail-grid {
+  color: $color-white;
+  margin: 1em -0.5em;
+  overflow: hidden;
+
+  figure {
+    display: block;
+    align-items: initial;
+  }
+
+  .c-figure__media {
+    margin: 0 $space-half 0 0;
+  }
+
+  > div {
+    text-align: center;
+    width: 25%;
+    padding: $pad-quarter $pad-half;
+    float: left;
+
+    img {
+      height: 1.5em;
+      margin-bottom: 0;
+    }
+
+    @media all and (min-width: $featured-property-bp) {
+      color: $color-white;
+      width: 100%;
+
+      figure {
+        display: flex;
+        align-items: center;
+      }
+
+      > div {
+        margin: 0 0 0 6em;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.c-selected-property__detail-right {
+  color: $color-black;
+
+  @media all and (min-width: $featured-property-bp) {
+    width: 38%;
+    padding: 2em 0 0;
+    float: right;
+  }
+}
+
+.c-selected-property__detail-info {
+
+  color: $color-white;
+
+  .c-selected-property__detail-info-wrapper {
+    border-left: solid $color-white 4px;
+    padding: 0 1em;
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+    color: $color-black;
+
+    .c-selected-property__detail-info-wrapper {
+      border-left: solid $color-black 4px;
+    }
+  }
+}
+
+.c-selected-property__detail-map {
+  margin: $space-double 0 0;
+}
+
+.c-selected-property__detail-location {
+
+  .fa {
+    margin: 0 $space-half 0 0;
+  }
+}
+/*------------------------------------*\
 	#FEATURED PROPERTY SECTION
 \*------------------------------------*/
 

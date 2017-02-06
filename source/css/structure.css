@@ -1270,7 +1270,7 @@ abbr {
 .c-form__sale-or-rent {
   display: flex;
   justify-content: center;
-  padding: 1em 0 0; }
+  padding: 2em 0 0; }
   @media all and (min-width: 930px) {
     .c-form__sale-or-rent {
       position: absolute;
@@ -2558,6 +2558,120 @@ abbr {
   text-transform: uppercase; }
   .c-section-valuation__heading-info > h2 {
     margin: 0 auto 1rem 0; }
+
+/*------------------------------------*	#SELECTED PROPERTY SECTION
+\*------------------------------------*/
+.c-selected-property {
+  color: #fff;
+  margin-bottom: 0.5em;
+  padding: 1.5em;
+  position: relative; }
+  .c-selected-property > h2 {
+    margin: 0.5em 0 1em 0;
+    text-transform: uppercase; }
+
+.c-selected-property__title {
+  display: inline-block;
+  background: #000;
+  padding: 0.25em 0.5em;
+  text-transform: uppercase; }
+
+.c-selected-property__tint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1; }
+
+.c-selected-property__tint:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("http://eatest.energisededge.com/wp-content/uploads/2017/01/Living-Room.jpg");
+  background-size: cover;
+  opacity: 0.2; }
+
+.c-selected-property__left {
+  margin: 1em 0; }
+  .c-selected-property__left img {
+    width: 100%; }
+  @media all and (min-width: 900px) {
+    .c-selected-property__left {
+      float: left;
+      width: 60%; } }
+
+.c-selected-property__description {
+  margin: 1em 0 0; }
+  .c-selected-property__description ul {
+    list-style-type: circle;
+    margin: 0px 0 0 4em; }
+  @media all and (min-width: 900px) {
+    .c-selected-property__description {
+      color: #595959; }
+      .c-selected-property__description ul {
+        color: #000; } }
+
+@media all and (min-width: 900px) {
+  .c-selected-property__detail-wrapper {
+    width: 26%;
+    margin: 0 0 0 auto; } }
+
+.c-selected-property__detail-grid {
+  color: #fff;
+  margin: 1em -0.5em;
+  overflow: hidden; }
+  .c-selected-property__detail-grid figure {
+    display: block;
+    align-items: initial; }
+  .c-selected-property__detail-grid .c-figure__media {
+    margin: 0 0.5em 0 0; }
+  .c-selected-property__detail-grid > div {
+    text-align: center;
+    width: 25%;
+    padding: 0.25em 0.5em;
+    float: left; }
+    .c-selected-property__detail-grid > div img {
+      height: 1.5em;
+      margin-bottom: 0; }
+    @media all and (min-width: 900px) {
+      .c-selected-property__detail-grid > div {
+        color: #fff;
+        width: 100%; }
+        .c-selected-property__detail-grid > div figure {
+          display: flex;
+          align-items: center; }
+        .c-selected-property__detail-grid > div > div {
+          margin: 0 0 0 6em;
+          text-align: left; } }
+
+.c-selected-property__detail-right {
+  color: #000; }
+  @media all and (min-width: 900px) {
+    .c-selected-property__detail-right {
+      width: 38%;
+      padding: 2em 0 0;
+      float: right; } }
+
+.c-selected-property__detail-info {
+  color: #fff; }
+  .c-selected-property__detail-info .c-selected-property__detail-info-wrapper {
+    border-left: solid #fff 4px;
+    padding: 0 1em; }
+  @media all and (min-width: 900px) {
+    .c-selected-property__detail-info {
+      color: #000; }
+      .c-selected-property__detail-info .c-selected-property__detail-info-wrapper {
+        border-left: solid #000 4px; } }
+
+.c-selected-property__detail-map {
+  margin: 2em 0 0; }
+
+.c-selected-property__detail-location .fa {
+  margin: 0 0.5em 0 0; }
 
 /*------------------------------------*	#FEATURED PROPERTY SECTION
 \*------------------------------------*/

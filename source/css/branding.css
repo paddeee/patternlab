@@ -222,6 +222,11 @@ a.c-block-media:hover .c-block-media__headline, a.c-block-media:focus .c-block-m
 .c-section-valuation__tint {
   background-color: #900603; }
 
+/*------------------------------------*	#SELECTED PROPERTY SECTION
+\*------------------------------------*/
+.c-selected-property__tint {
+  background-color: #900603; }
+
 /*------------------------------------*	#FEATURED PROPERTY SECTION
 \*------------------------------------*/
 .c-featured-property__tint {
