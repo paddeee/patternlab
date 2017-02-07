@@ -300,6 +300,12 @@ input[type="search"]::-webkit-search-decoration {
   clip: rect(1px, 1px, 1px, 1px); }
 
 /**
+ * Text Uppercase
+ */
+.upper-case {
+  text-transform: uppercase; }
+
+/**
  * Text align right
  */
 .align-right {
@@ -547,11 +553,19 @@ dd {
 
 /*------------------------------------*    #MAPS
 \*------------------------------------*/
+/*------------------------------------*    #VARIABLES
+\*------------------------------------*/
 /**
  * Maps
  */
 .map--property-listing {
-  height: 24rem; }
+  height: 24rem;
+  margin: 0 0 -5em -2em;
+  width: calc(100% + 4em); }
+  @media all and (min-width: 900px) {
+    .map--property-listing {
+      margin: 0;
+      width: 100%; } }
 
 @font-face {
   font-family: 'map-icons';
@@ -1526,6 +1540,45 @@ abbr {
 
 .c-property-item__description {
   font-size: 0.875rem; }
+
+/*------------------------------------*	#AGENT CALL TO ACTION
+\*------------------------------------*/
+.c-agent-cta {
+  color: #fff;
+  padding: 1em; }
+
+.c-agent-cta__info {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 1em; }
+  .c-agent-cta__info > img {
+    border-radius: 6px;
+    margin: 0 1em 0 0;
+    width: 40%; }
+
+.c-agent-cta__agent-detail {
+  text-align: center; }
+  .c-agent-cta__agent-detail h2,
+  .c-agent-cta__agent-detail h3 {
+    margin: 0 0 1em; }
+
+.c-agent-cta__contact-icons {
+  height: 100%; }
+  .c-agent-cta__contact-icons a {
+    color: #fff; }
+  .c-agent-cta__contact-icons a:hover {
+    color: #d9d9d9; }
+  @media all and (max-width: 780px) {
+    .c-agent-cta__contact-icons {
+      margin: 0 0 0 auto; } }
+
+.c-agent-cta__contact-icon {
+  align-items: center;
+  display: flex;
+  padding: 0 0.8em; }
+
+.c-agent-cta__form {
+  text-align: center; }
 
 /*------------------------------------*    #BUTTONS
 \*------------------------------------*/
@@ -2809,6 +2862,34 @@ abbr {
       .c-affiliated__grid > div {
         width: 25%;
         display: inline-block; } }
+
+/*------------------------------------*	#DETAILED PROPERTY SECTION
+\*------------------------------------*/
+.c-property-further-info {
+  display: block; }
+  @media all and (min-width: 900px) {
+    .c-property-further-info {
+      display: flex;
+      clear: both; } }
+
+.c-property-further-info__floorplan {
+  margin: 4em 0 1em;
+  width: 100%; }
+  .c-property-further-info__floorplan > img {
+    border: 0 none; }
+  @media all and (min-width: 900px) {
+    .c-property-further-info__floorplan {
+      margin: 0 1em;
+      width: 60%; }
+      .c-property-further-info__floorplan > img {
+        border: 1px solid #000; } }
+
+.c-property-further-info__agent-cta {
+  margin: 1em 0 0; }
+  @media all and (min-width: 900px) {
+    .c-property-further-info__agent-cta {
+      margin: 0 1em 0 0;
+      width: 38%; } }
 
 /*------------------------------------*	#SUBSCRIBE FOR UPDATES SECTION
 \*------------------------------------*/

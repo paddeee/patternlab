@@ -549,6 +549,44 @@ $title-pagination-bp: 800px;
   }
 }
 
+/*------------------------------------*\
+	#DETAILED PROPERTY SECTION
+\*------------------------------------*/
+.c-property-further-info {
+  display: block;
+
+  @media all and (min-width: $featured-property-bp) {
+    display: flex;
+    clear: both;
+  }
+}
+
+.c-property-further-info__floorplan {
+  margin: 4em 0 1em;
+  width: 100%;
+
+  > img {
+    border: 0 none;
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+    margin: 0 $space;
+    width: 60%;
+
+    > img {
+      border: 1px solid $color-black;
+    }
+  }
+}
+
+.c-property-further-info__agent-cta {
+  margin: $space 0 0;
+
+  @media all and (min-width: $featured-property-bp) {
+    margin: 0 $space 0 0;
+    width: 38%;
+  }
+}
 
 /*------------------------------------*\
 	#SUBSCRIBE FOR UPDATES SECTION

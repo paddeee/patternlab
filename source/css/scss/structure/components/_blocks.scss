@@ -421,3 +421,58 @@ $header-contact-info-bp: 780px;
 .c-property-item__description {
     font-size: $font-size-small-2;
 }
+
+/*------------------------------------*\
+	#AGENT CALL TO ACTION
+\*------------------------------------*/
+.c-agent-cta {
+    color: $color-white;
+    padding: $pad;
+}
+
+.c-agent-cta__info {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 1em;
+
+    > img {
+        border-radius: $border-radius;
+        margin: 0 1em 0 0;
+        width: 40%;
+    }
+}
+
+.c-agent-cta__agent-detail {
+    text-align: center;
+
+    h2,
+    h3 {
+        margin: 0 0 $space;
+    }
+}
+
+.c-agent-cta__contact-icons {
+    height: 100%;
+
+    a {
+        color: $color-white;
+    }
+
+    a:hover {
+        color: $color-gray-15;
+    }
+
+    @media all and (max-width: $header-contact-info-bp) {
+        margin: 0 0 0 auto;
+    }
+}
+
+.c-agent-cta__contact-icon {
+    align-items: center;
+    display: flex;
+    padding: 0 0.8em;
+}
+
+.c-agent-cta__form {
+    text-align: center;
+}

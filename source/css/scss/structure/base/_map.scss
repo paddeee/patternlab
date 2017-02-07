@@ -2,11 +2,23 @@
     #MAPS
 \*------------------------------------*/
 
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+$featured-property-bp: 900px;
+
 /**
  * Maps
  */
 .map--property-listing {
 	height: 24rem;
+    margin: 0 0 -5em -2em;
+    width: calc(100% + 4em);
+
+    @media all and (min-width: $featured-property-bp) {
+      margin: 0;
+      width: 100%;
+    }
 }
 
 @font-face {

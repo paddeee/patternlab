@@ -1,9 +1,11 @@
 {
   "listingTitle" : "Properties for Sale",
   "featuredPropertyImage": "http://eatest.energisededge.com/wp-content/uploads/2017/01/Front-W4-front.jpg",
+  "featuredPropertyURL": "link.pages-single-listing",
   "propertyList": [
     {
       "propertyID": "PropertyID-1",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B03730450-3e18-4a44-bf95-23ffb070c989%7D/main/3-orchard-41.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/{dcd2d0fd-2f47-45d2-9deb-8390673bfd2b}/{03730450-3e18-4a44-bf95-23ffb070c989}/main/3-orchard-9.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/{dcd2d0fd-2f47-45d2-9deb-8390673bfd2b}/{03730450-3e18-4a44-bf95-23ffb070c989}/main/3-orchard-6.jpg",
@@ -15,6 +17,7 @@
     },
     {
       "propertyID": "PropertyID-2",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-47.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-37.jpg",
@@ -26,6 +29,7 @@
     },
     {
       "propertyID": "PropertyID-3",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-19.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-20.jpg",
@@ -37,6 +41,7 @@
     },
     {
       "propertyID": "PropertyID-4",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B93b24dcc-bda0-4e3c-a530-29e3d2b0fdd3%7D/main/11-Melling-Way-21.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bcdcc79e7-1658-4d66-aca5-5e290361b031%7D/main/76-gardinar-close-12.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bcdcc79e7-1658-4d66-aca5-5e290361b031%7D/main/76-gardinar-close-35.jpg",
@@ -48,6 +53,7 @@
     },
     {
       "propertyID": "PropertyID-5",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-47.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-37.jpg",
@@ -59,6 +65,7 @@
     },
     {
       "propertyID": "PropertyID-6",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-19.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-20.jpg",
@@ -70,6 +77,7 @@
     },
     {
       "propertyID": "PropertyID-7",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B03730450-3e18-4a44-bf95-23ffb070c989%7D/main/3-orchard-41.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/{dcd2d0fd-2f47-45d2-9deb-8390673bfd2b}/{03730450-3e18-4a44-bf95-23ffb070c989}/main/3-orchard-9.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/{dcd2d0fd-2f47-45d2-9deb-8390673bfd2b}/{03730450-3e18-4a44-bf95-23ffb070c989}/main/3-orchard-6.jpg",
@@ -81,6 +89,7 @@
     },
     {
       "propertyID": "PropertyID-8",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-47.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-37.jpg",
@@ -92,6 +101,7 @@
     },
     {
       "propertyID": "PropertyID-9",
+      "url": "link.pages-single-listing",
       "mainImage": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
       "thumb1": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-19.jpg",
       "thumb2": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-20.jpg",

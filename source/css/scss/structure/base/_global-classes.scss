@@ -43,6 +43,14 @@
 }
 
 /**
+ * Text Uppercase
+ */
+.upper-case {
+    text-transform: uppercase;
+}
+
+
+/**
  * Text align right
  */
 .align-right {
@@ -121,6 +129,8 @@
 .white-colour {
     color: $color-white;
 }
+
+
 
 /**
  * Corner image ribbons

@@ -230,6 +230,7 @@
     "propertyList": [
         {
             "propertyID": "PropertyID-1",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -241,6 +242,7 @@
         },
         {
             "propertyID": "PropertyID-2",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -252,6 +254,7 @@
         },
         {
             "propertyID": "PropertyID-3",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -263,6 +266,7 @@
         },
         {
             "propertyID": "PropertyID-4",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -274,6 +278,7 @@
         },
         {
             "propertyID": "PropertyID-5",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -285,6 +290,7 @@
         },
         {
             "propertyID": "PropertyID-6",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -296,6 +302,7 @@
         },
         {
             "propertyID": "PropertyID-7",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -307,6 +314,7 @@
         },
         {
             "propertyID": "PropertyID-8",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
@@ -318,6 +326,7 @@
         },
         {
             "propertyID": "PropertyID-9",
+            "url": "link.pages-single-listing",
             "mainImage": "/images/fpo_16x9.png",
             "thumb1": "/images/fpo_16x9.png",
             "thumb2": "/images/fpo_16x9.png",
