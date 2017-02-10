@@ -358,12 +358,16 @@ $title-pagination-bp: 800px;
 .c-featured-property {
   color: $color-white;
   margin-bottom: $space-half;
-  padding: $pad-and-half;
+  padding: 8em $pad-and-half $pad-and-half;
   position: relative;
 
   > h2 {
     margin: 0.5em 0 1em 0;
     text-transform: uppercase;
+  }
+
+  @media all and (min-width: $featured-property-bp) {
+    padding: $pad-and-half;
   }
 }
 
@@ -391,11 +395,15 @@ $title-pagination-bp: 800px;
 .c-featured-property__title {
   position: absolute;
   left: $space-double;
-  top: -$space;
+  top: 6em;
   display: inline-block;
   background: $color-black;
   padding: $pad-quarter $pad-half;
   text-transform: uppercase;
+
+  @media all and (min-width: $featured-property-bp) {
+    top: -$space;
+  }
 }
 
 .c-featured-property__image {

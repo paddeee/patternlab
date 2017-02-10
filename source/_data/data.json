@@ -163,8 +163,34 @@
         "textButton" : false,
         "pagination" : false
     },
+    "blogSectionLinks" : {
+        "linkButtons": [
+            {
+                "linkText": "Buying a property"
+            },
+            {
+                "linkText": "Being a landlord"
+            },
+            {
+                "linkText": "Renting a property"
+            },
+            {
+                "linkText": "Local area info"
+            },
+            {
+                "linkText": "Local services"
+            },
+            {
+                "linkText": "Leisure"
+            },
+            {
+                "linkText": "Schools"
+            }
+        ],
+        "titleText" : "I need help with..."
+    },
     "latestPosts" : {
-        "mediaList": [
+        "postsList": [
             {
             },
             {
@@ -175,21 +201,29 @@
         "textButton" : false,
         "pagination" : false
     },
-    "featuredPosts" : {
-        "mediaList": [
+    "popularPosts" : {
+        "postsList": [
             {
-	            "styleModifier" : "small"
             },
             {
-	            "styleModifier" : "small"
             },
             {
-	            "styleModifier" : "small"
             }
         ],
         "pagination" : false
     },
-    "featuredChallenges" : {
+    "blogComments" : {
+        "commentsList": [
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "pagination" : false
+    },
+    "featuredPosts" : {
 	    "mediaList": [
 		    {},
 		    {},

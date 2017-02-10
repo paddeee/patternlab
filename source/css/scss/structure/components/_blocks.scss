@@ -10,6 +10,7 @@
 \*------------------------------------*/
 $c-block-hero__find-property-bp: 930px;
 $header-contact-info-bp: 780px;
+$blog-index-item-bp: 75em;
 
 
 /*------------------------------------*\
@@ -423,6 +424,19 @@ $header-contact-info-bp: 780px;
 }
 
 /*------------------------------------*\
+	#AGENT
+\*------------------------------------*/
+.c-agent__agent-detail {
+    text-align: center;
+
+    h3 {
+        > span {
+            display: block;
+        }
+    }
+}
+
+/*------------------------------------*\
 	#AGENT CALL TO ACTION
 \*------------------------------------*/
 .c-agent-cta {
@@ -476,3 +490,259 @@ $header-contact-info-bp: 780px;
 .c-agent-cta__form {
     text-align: center;
 }
+
+/*------------------------------------*\
+	#SOCIAL MEDIA
+\*------------------------------------*/
+.c-social-media {
+    color: $color-white;
+    padding: $pad;
+}
+
+.c-social-media__info {
+    text-align: center;
+}
+
+.c-social-media__contact-icons {
+    height: 100%;
+
+    a {
+        color: $color-white;
+    }
+
+    a:hover {
+        color: $color-gray-15;
+    }
+
+    @media all and (max-width: $header-contact-info-bp) {
+        margin: 0 0 0 auto;
+    }
+}
+
+.c-social-media__contact-icon {
+    margin: 0 $space-half 0 0;
+}
+
+.c-social-media__form {
+    margin: $space 0 0;
+
+    > p {
+        text-align: center;
+    }
+}
+
+.c-social-media__search {
+    position: relative;
+
+    input {
+        text-indent: 30px;
+    }
+
+    .fa-search {
+        color: $color-gray-50;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+     }
+}
+
+
+/*------------------------------------*\
+	#BLOG INDEX POST
+\*------------------------------------*/
+.c-blog-index-item {
+    margin: 0 0 $space-double;
+}
+
+.c-blog-index-item__image {
+    max-height: 240px;
+    overflow: hidden;
+    position: relative;
+
+    > h2 {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        display: inline-block;
+        background: $color-black;
+        padding: $pad-quarter $pad-half;
+        text-transform: uppercase;
+        color: $color-white;
+        font-size: $font-size-med;
+    }
+
+    img {
+        border-bottom-width: $border-thick;
+        border-bottom-style: solid;
+        margin-top: -20%;
+        width: 100%;
+    }
+}
+
+.c-blog-index-item__date {
+    font-weight: bold;
+    text-align: right;
+}
+
+.c-blog-index-item__info {
+    padding: 0 0 0 $pad;
+    border-left: $border-thick solid $color-black;
+}
+
+.c-blog-index-item__calls-to-action {
+    align-items: center;
+    display: flex;
+}
+
+.c-blog-index-item__actions {
+    margin: 0 0 0 auto;
+}
+
+.c-blog-index-item__contact-icon {
+    margin: 0 $space-half 0 0;
+}
+
+/*------------------------------------*\
+	#BLOG DETAIL POST
+\*------------------------------------*/
+.c-blog-detail-item__image {
+    position: relative;
+
+    > h2 {
+        position: absolute;
+        bottom: 20px;
+        left: 1em;
+        display: inline-block;
+        background: $color-black;
+        padding: $pad-quarter $pad-half;
+        text-transform: uppercase;
+        color: $color-white;
+        font-size: $font-size-med;
+    }
+
+    img {
+        border-bottom-width: $border-thick * 2;
+        border-bottom-style: solid;
+        height: 60vh;
+        width: 100%;
+    }
+}
+
+.c-blog-index-item__date {
+    font-weight: bold;
+    text-align: right;
+}
+
+.c-blog-index-item__info {
+    padding: 0 0 0 $pad;
+    border-left: $border-thick solid $color-black;
+}
+
+.c-blog-index-item__calls-to-action {
+    align-items: center;
+    display: flex;
+}
+
+.c-blog-index-item__actions {
+    margin: 0 0 0 auto;
+}
+
+.c-blog-index-item__contact-icon {
+    margin: 0 $space-half 0 0;
+}
+
+/*------------------------------------*\
+	#BLOG COMMENTS
+\*------------------------------------*/
+.c-blog-comment-item {
+    font-size: $font-size-small-2;
+    margin: 0 0 $space;
+}
+
+.c-blog-comment__info {
+    display: flex;
+
+    span:first-child {
+        font-size: $font-size-med;
+        font-weight: bold;
+        margin: 0 auto 0.5em 0;
+    }
+}
+
+.c-blog-comment__comment {
+    padding: 0 0 0 $pad;
+    border-left-width: $border-thick;
+    border-left-style: solid;
+    height: 5em;
+}
+
+/*------------------------------------*\
+	#BLOG POPULAR POST
+\*------------------------------------*/
+.c-blog-popular-post-item {
+    font-size: $font-size-small-2;
+}
+
+.c-blog-popular-post-item__info {
+    padding: 0 0 0 $pad;
+    border-left-width: $border-thick;
+    border-left-style: solid;
+}
+
+.c-blog-popular-post-item__actions {
+    margin: 0 0 $space;
+    text-align: right;
+
+    > a {
+        font-weight: bold;
+    }
+
+    > a:hover,
+    a:active {
+        color: $color-black;
+    }
+}
+
+/*------------------------------------*\
+	#BLOG LINK
+\*------------------------------------*/
+.c-blog-link {
+    position: relative;
+    text-align: center;
+    margin: 0 0 $space;
+
+    a {
+        color: $color-white;
+        display:block;
+        font-weight: bold;
+        padding: $pad-double 0;
+    }
+
+    a:hover,
+    a:active {
+         color: $color-black;
+    }
+}
+
+.c-blog-link__tint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.c-blog-link__tint:before {
+    background-image: url('http://eatest.energisededge.com/wp-content/uploads/2017/01/Living-Room.jpg');
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    opacity: 0.4;
+}
+

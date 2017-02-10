@@ -1,193 +1,301 @@
 {
-	"pageTitle" : "Precise Locations Blog",
-	"sectionTitle" : false,
-	"latestPosts" : {
-		"mediaList" : [
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B03730450-3e18-4a44-bf95-23ffb070c989%7D/main/3-orchard-41.jpg",
-					"alt": "Orchard"
-				},
-				"headline" : {
-					"short" : "How to declutter your home – the top tips"
-				},
-				"excerpt" : {
-					"medium" : "Estate agents Tepilo provide top tips on how to declutter this January."
-				}
-				
-			},
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
-					"alt": "Dodds Farm"
-				},
-				"headline" : {
-					"short" : "What type of property do we really want to live in?"
-				},
-				"excerpt" : {
-					"medium" : "Sarah Beeny’s estate agency, Tepilo, takes a look at some of the property styles and features that are most popular with British home owners and buyers."
-				}
-				
-			},
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
-					"alt": "Brierly"
-				},
-				"headline" : {
-					"short" : "Here’s how poor credit scores are denying would-be buyers"
-				},
-				"excerpt" : {
-					"medium" : "Here’s how poor credit scores are denying would-be buyers."
-				}
-				
-			},
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B93b24dcc-bda0-4e3c-a530-29e3d2b0fdd3%7D/main/11-Melling-Way-21.jpg",
-					"alt": "Melling Way"
-				},
-				"headline" : {
-					"short" : "What impact has Brexit had on the mortgage market?"
-				},
-				"excerpt" : {
-					"medium" : "What impact has Brexit had on the UK mortgage market."
-				}
-				
-			},
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
-					"alt": "Dodds Farm"
-				},
-				"headline" : {
-					"short" : "Where is the UK’s most expensive street?"
-				},
-				"excerpt" : {
-					"medium" : "Sarah Beeny’s Tepilo takes a closer look at analysis which names the most expensive street in England and Wales."
-				}
-				
-			},
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
-					"alt": "Brierly"
-				},
-				"headline" : {
-					"short" : "Why the green belt is set to see many more homes"
-				},
-				"excerpt" : {
-					"medium" : "With more than 360,000 new properties proposed for green belt land, online estate agency Tepilo takes a closer look at this most divisive of housing issues."
-				}
-			}
-		],
-		"textButton" : false,
-		"pagination" : {
-			"paginationList" : [
-				{
-					"url" : "#",
-					"number" : "1"
-				},
-				{
-					"url" : "#",
-					"number" : "2"
-				},
-				{
-					"url" : "#",
-					"number" : "3"
-				},
-				{
-					"url" : "#",
-					"number" : "4"
-				},
-				{
-					"url" : "#",
-					"number" : "5"
-				},
-				{
-					"url" : "#",
-					"number" : "6"
-				},
-				{
-					"url" : "#",
-					"number" : "7"
-				},
-				{
-					"url" : "#",
-					"number" : "8"
-				},	{
-					"url" : "#",
-					"number" : "9"
-				},
-				{
-					"url" : "#",
-					"number" : "10"
-				},
-				{
-					"url" : "#",
-					"number" : "11"
-				},
-				{
-					"url" : "#",
-					"number" : "12"
-				}				
-			]			
-		}
-	},		
-	"featuredPeople" : {
-		"sectionTitle" : "Featured Agents",
-		"mediaList": [
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar4.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Ted Maul"
-				},
-				"excerpt" : {
-					"medium" : "Manager"
-				}
-				
-			},
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar6.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Calataly Sisters"
-				},
-				"excerpt" : {
-					"medium" : "Office Manager"
-				}
-				
-			},
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar5.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Austen Tassaltine"
-				},
-				"excerpt" : {
-					"medium" : "Area Manager"
-				}
-				
-			}
-		]
-	}
+  "pageTitle": "Precise Locations Blog",
+  "sectionTitle": false,
+  "latestPosts": {
+    "postsList": [
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B03730450-3e18-4a44-bf95-23ffb070c989%7D/main/3-orchard-41.jpg",
+          "alt": "Orchard"
+        },
+        "headline": {
+          "short": "How to declutter your home – the top tips"
+        },
+        "excerpt": {
+          "medium": "Estate agents Tepilo provide top tips on how to declutter this January."
+        },
+        "category": "Selling My House",
+        "date": "20th January 2017"
+      },
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
+          "alt": "Dodds Farm"
+        },
+        "headline": {
+          "short": "What type of property do we really want to live in?"
+        },
+        "excerpt": {
+          "medium": "Sarah Beeny’s estate agency, Tepilo, takes a look at some of the property styles and features that are most popular with British home owners and buyers."
+        },
+        "category": "Buying a Property",
+        "date": "22nd January 2017"
+      },
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
+          "alt": "Brierly"
+        },
+        "headline": {
+          "short": "Here’s how poor credit scores are denying would-be buyers"
+        },
+        "excerpt": {
+          "medium": "Here’s how poor credit scores are denying would-be buyers."
+        },
+        "category": "Local Services",
+        "date": "23rd January 2017"
+      },
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B93b24dcc-bda0-4e3c-a530-29e3d2b0fdd3%7D/main/11-Melling-Way-21.jpg",
+          "alt": "Melling Way"
+        },
+        "headline": {
+          "short": "What impact has Brexit had on the mortgage market?"
+        },
+        "excerpt": {
+          "medium": "What impact has Brexit had on the UK mortgage market."
+        },
+        "category": "Selling My House",
+        "date": "30th January 2017"
+      },
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
+          "alt": "Dodds Farm"
+        },
+        "headline": {
+          "short": "Where is the UK’s most expensive street?"
+        },
+        "excerpt": {
+          "medium": "Sarah Beeny’s Tepilo takes a closer look at analysis which names the most expensive street in England and Wales."
+        },
+        "category": "Local Services",
+        "date": "31st January 2017"
+      },
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
+          "alt": "Brierly"
+        },
+        "headline": {
+          "short": "Why the green belt is set to see many more homes"
+        },
+        "excerpt": {
+          "medium": "With more than 360,000 new properties proposed for green belt land, online estate agency Tepilo takes a closer look at this most divisive of housing issues."
+        },
+        "category": "Buying a Property",
+        "date": "2nd February 2017"
+      }
+    ],
+    "textButton": false,
+    "pagination": {
+      "paginationList": [
+        {
+          "url": "#",
+          "number": "1"
+        },
+        {
+          "url": "#",
+          "number": "2"
+        },
+        {
+          "url": "#",
+          "number": "3"
+        },
+        {
+          "url": "#",
+          "number": "4"
+        },
+        {
+          "url": "#",
+          "number": "5"
+        },
+        {
+          "url": "#",
+          "number": "6"
+        },
+        {
+          "url": "#",
+          "number": "7"
+        },
+        {
+          "url": "#",
+          "number": "8"
+        },
+        {
+          "url": "#",
+          "number": "9"
+        },
+        {
+          "url": "#",
+          "number": "10"
+        },
+        {
+          "url": "#",
+          "number": "11"
+        },
+        {
+          "url": "#",
+          "number": "12"
+        }
+      ]
+    }
+  },
+  "popularPosts": {
+    "postsList": [
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B03730450-3e18-4a44-bf95-23ffb070c989%7D/main/3-orchard-41.jpg",
+          "alt": "Orchard"
+        },
+        "headline": {
+          "short": "How to declutter your home – the top tips"
+        },
+        "excerpt": {
+          "medium": "Estate agents Tepilo provide top tips on how to declutter this January."
+        },
+        "category": "Selling My House",
+        "date": "20th January 2017"
+      },
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7Bb5a1298b-664c-4c63-91fe-bbcea257cd6b%7D/main/2-dodds-farm-19.jpg",
+          "alt": "Dodds Farm"
+        },
+        "headline": {
+          "short": "What type of property do we really want to live in?"
+        },
+        "excerpt": {
+          "medium": "Sarah Beeny’s estate agency, Tepilo, takes a look at some of the property styles and features that are most popular with British home owners and buyers."
+        },
+        "category": "Buying a Property",
+        "date": "22nd January 2017"
+      },
+      {
+        "url": "link.pages-blog-detail",
+        "imgSquare": {
+          "src": "http://med04.expertagent.co.uk/in4glestates/%7Bdcd2d0fd-2f47-45d2-9deb-8390673bfd2b%7D/%7B3f45a173-3f41-4269-bc5b-7b87b424abce%7D/main/5-brierly-18.jpg",
+          "alt": "Brierly"
+        },
+        "headline": {
+          "short": "Here’s how poor credit scores are denying would-be buyers"
+        },
+        "excerpt": {
+          "medium": "Here’s how poor credit scores are denying would-be buyers."
+        },
+        "category": "Local Services",
+        "date": "23rd January 2017"
+      }
+    ],
+    "sectionTitle": "Popular Posts",
+    "textButton": false,
+    "pagination": {
+      "paginationList": [
+        {
+          "url": "#",
+          "number": "1"
+        },
+        {
+          "url": "#",
+          "number": "2"
+        },
+        {
+          "url": "#",
+          "number": "3"
+        },
+        {
+          "url": "#",
+          "number": "4"
+        },
+        {
+          "url": "#",
+          "number": "5"
+        },
+        {
+          "url": "#",
+          "number": "6"
+        },
+        {
+          "url": "#",
+          "number": "7"
+        },
+        {
+          "url": "#",
+          "number": "8"
+        },
+        {
+          "url": "#",
+          "number": "9"
+        },
+        {
+          "url": "#",
+          "number": "10"
+        },
+        {
+          "url": "#",
+          "number": "11"
+        },
+        {
+          "url": "#",
+          "number": "12"
+        }
+      ]
+    }
+  },
+  "featuredPeople": {
+    "sectionTitle": "Featured Agents",
+    "mediaList": [
+      {
+        "url": "",
+        "styleModifier": "small",
+        "imgSquare": {
+          "src": "../../../images/sample/avatar4.jpg",
+          "alt": "avatar"
+        },
+        "headline": {
+          "short": "Ted Maul"
+        },
+        "excerpt": {
+          "medium": "Manager"
+        }
+      },
+      {
+        "url": "",
+        "styleModifier": "small",
+        "imgSquare": {
+          "src": "../../../images/sample/avatar6.jpg",
+          "alt": "avatar"
+        },
+        "headline": {
+          "short": "Calataly Sisters"
+        },
+        "excerpt": {
+          "medium": "Office Manager"
+        }
+      },
+      {
+        "url": "",
+        "styleModifier": "small",
+        "imgSquare": {
+          "src": "../../../images/sample/avatar5.jpg",
+          "alt": "avatar"
+        },
+        "headline": {
+          "short": "Austen Tassaltine"
+        },
+        "excerpt": {
+          "medium": "Area Manager"
+        }
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
 	"pageTitle" : "How to declutter your home – the top tips",
 	"htmlText" : "<h2>Estate agents Tepilo provide top tips on how to declutter this January.</h2><p>If you're selling your home, or have already sold your home, decluttering is about to play an important role in your life. Whether you're getting ready to move home, getting your home ready for a viewing or looking to attract buyers with an attractive, tidy, clean and well-maintained property, you will almost certainly need to declutter at some point. People can get into a bit of a tizz about this, but it can be quite a therapeutic and relaxing experience if approached in the right way. And what better time to do it than January, the month of resolutions and fresh starts? A clutter-free home, after all, not only clears space physically but mentally as well. A home that is allowed to breathe will also allow you to breathe more easily too. How, though, can it be done in a fun and efficient way? Sharone Ben-Harosh, CEO and Founder of FlatRate Moving, a national home moving firm, puts over his top tips.</p>",
 	"formTitle" : "Comments",
+  	"mainImage" : {
+	  "src": "http://eatest.energisededge.com/wp-content/uploads/2016/12/1324-Artylowres5.jpg",
+	  "alt": "Orchard"
+	},
+  "category": "Selling My House",
 	"form" : {
 		"fields" : {
 			"field" : [
@@ -20,8 +25,28 @@
 		"label" : "Comment"
 	},
 	"btnText" : "Add Comment",
+	"blogComments" : {
+	  "commentsList": [
+		{
+		  "user": "Peter Baxendale Thomas",
+		  "date": "22nd January 2017",
+		  "comment": "Some of the property styles and features that are most popular with home owners."
+		},
+		{
+		  "user": "Peter O'Hanraohanrahan",
+		  "date": "24th January 2017",
+		  "comment": "Some of the property styles and features that are most popular with home owners."
+		},
+		{
+		  "user": "Fred Dibnah",
+		  "date": "29th January 2017",
+		  "comment": "Some of the property styles and features that are most popular with home owners."
+		}
+	  ],
+	  "pagination" : false
+	},
 	"featuredPosts" : {
-		"sectionTitle" : "Featured Posts",
+		"sectionTitle" : "You might also like..",
 		"mediaList": [
 			{
 				"url" : "link.pages-blog-detail",
@@ -35,7 +60,6 @@
 				"excerpt" : {
 					"medium" : "Some of the property styles and features that are most popular with home owners."
 				}
-
 			},
 			{
 				"url" : "link.pages-blog-detail",
@@ -49,7 +73,6 @@
 				"excerpt" : {
 					"medium" : "Here’s how poor credit scores are denying would-be buyers."
 				}
-
 			},
 			{
 				"url" : "link.pages-blog-detail",
@@ -63,10 +86,10 @@
 				"excerpt" : {
 					"medium" : "Brexit Impact Case Study"
 				}
-
 			}
 		],
-		"btnText" : "View All Posts"
+		"btnText" : "View All Posts",
+	  	"pagination": false
 	},
   "featuredPeople" : {
 	"sectionTitle" : "Featured Agents",
