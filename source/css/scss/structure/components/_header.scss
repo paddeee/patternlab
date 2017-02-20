@@ -18,6 +18,11 @@ $header-contact-info-bp: 780px;
   z-index: 1000;
 }
 
+
+.header--relative {
+  position: relative;
+}
+
 .header__contact-info {
   align-items: center;
   display: flex;

@@ -551,6 +551,19 @@ dd {
     [role=main] {
       padding-top: 98px; } }
 
+.main--relative {
+  padding-top: 0;
+  position: relative; }
+
+.main--fixed {
+  padding-top: 46px; }
+  .main--fixed .c-form--listing-search {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10; }
+
 /*------------------------------------*    #MAPS
 \*------------------------------------*/
 /*------------------------------------*    #VARIABLES
@@ -559,9 +572,7 @@ dd {
  * Maps
  */
 .map--property-listing {
-  height: 24rem;
-  margin: 0 0 -5em -2em;
-  width: calc(100% + 4em); }
+  height: 24rem; }
   @media all and (min-width: 900px) {
     .map--property-listing {
       margin: 0;
@@ -1279,7 +1290,9 @@ abbr {
       bottom: 0;
       left: 5vw;
       width: 35%;
-      border-radius: 6px 6px 0 0; } }
+      border-radius: 6px 6px 0 0; }
+      .c-block-hero__find-property .c-form__sale-or-rent-form {
+        padding: 3em 0 0; } }
 
 .c-form__sale-or-rent {
   display: flex;
@@ -1299,31 +1312,96 @@ abbr {
     display: flex;
     margin: 0 0 0 0.25em; }
 
-.c-form__sale-or-rent-form {
-  padding: 1em 0 0.5em; }
-  @media all and (min-width: 930px) {
-    .c-form__sale-or-rent-form {
-      padding: 3em 0 0; } }
-
+/**
+ * Filter Bar form
+ */
 .c-form--listing-search {
+  background-color: #000;
   color: #fff; }
+  .c-form--listing-search input {
+    border: 0 none;
+    border-radius: 0; }
+  .c-form--listing-search select {
+    min-width: 10em;
+    width: 100%; }
   .c-form--listing-search .c-form__sale-or-rent {
     display: none; }
-  .c-form--listing-search .c-form__sale-or-rent-form h2 {
-    margin: 0.5em 0; }
-  .c-form--listing-search .c-form__sale-or-rent-form > p {
-    display: none; }
-  .c-form--listing-search .c-form__sale-or-rent-form .c-field,
-  .c-form--listing-search .c-form__sale-or-rent-form .c-combined-field {
-    font-size: 0.75rem;
-    margin: 0 auto 0.65rem; }
-  @media all and (min-width: 780px) {
-    .c-form--listing-search .c-form__sale-or-rent-form {
-      padding: 1em 0 0.5em; }
+  .c-form--listing-search .c-form__sale-or-rent-form {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    padding: 0.5em 0.5em 0; }
+    .c-form--listing-search .c-form__sale-or-rent-form h2 {
+      margin: 0.5em 0; }
+    .c-form--listing-search .c-form__sale-or-rent-form > p {
+      display: none; }
+    .c-form--listing-search .c-form__sale-or-rent-form .c-field,
+    .c-form--listing-search .c-form__sale-or-rent-form .c-combined-field {
+      display: flex;
+      flex: 1;
+      font-size: 0.75rem;
+      margin: 0 1em 0.65rem; }
+    .c-form--listing-search .c-form__sale-or-rent-form .c-combined-field__separator {
+      padding: 0 1em; }
+    .c-form--listing-search .c-form__sale-or-rent-form .c-form__filters-link {
+      display: flex;
+      margin: 0.25em 1em 0; }
+      .c-form--listing-search .c-form__sale-or-rent-form .c-form__filters-link > span {
+        margin: 0.25em 0 0 0.5em; }
+      .c-form--listing-search .c-form__sale-or-rent-form .c-form__filters-link a {
+        color: #fff; }
+      .c-form--listing-search .c-form__sale-or-rent-form .c-form__filters-link a:hover {
+        color: #d9d9d9; }
+    @media all and (min-width: 780px) {
       .c-form--listing-search .c-form__sale-or-rent-form h2 {
         margin: 0 0 0.5em; } }
+    @media all and (max-width: 44em) {
+      .c-form--listing-search .c-form__sale-or-rent-form .c-form__beds {
+        display: none; } }
+    @media all and (max-width: 64em) {
+      .c-form--listing-search .c-form__sale-or-rent-form .c-form__price {
+        display: none; } }
+  .c-form--listing-search .c-form__split {
+    display: flex;
+    flex: 3;
+    margin: 0 1em 0 0; }
+    .c-form--listing-search .c-form__split input {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      outline: none; }
+    .c-form--listing-search .c-form__split select {
+      appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -webkit-appearance: none;
+      border: 0 none;
+      border-radius: 0;
+      min-width: 125px;
+      outline: none;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px; }
+    .c-form--listing-search .c-form__split .c-field {
+      flex: initial;
+      margin: 0 0 0.65rem; }
+    .c-form--listing-search .c-form__split .c-field:first-child {
+      flex: 1; }
   .c-form--listing-search .c-form__actions {
     margin: 0.5em 0; }
+
+.c-form__hidden-filters {
+  display: none;
+  position: fixed;
+  -webkit-transform: translateY(53px);
+  -ms-transform: translateY(53px);
+  transform: translateY(53px);
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  z-index: 11;
+  background-color: #fff; }
+
+.c-form__hidden-filters--active {
+  display: block; }
 
 /*------------------------------------*	#MEDIA BLOCK
 \*------------------------------------*/
@@ -2088,6 +2166,9 @@ abbr {
   left: 0;
   width: 100%;
   z-index: 1000; }
+
+.header--relative {
+  position: relative; }
 
 .header__contact-info {
   align-items: center;
