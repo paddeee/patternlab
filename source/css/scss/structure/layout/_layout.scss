@@ -47,11 +47,6 @@
 	 * Sidebar
 	 */
 	.l-sidebar {
-		
-		@media all and (min-width:$bp-small-3) {
-			display: flex;
-		  height: 100%;
-		}
 
 
 		@media all and (min-width: $bp-large) {

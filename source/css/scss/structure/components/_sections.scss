@@ -13,7 +13,6 @@ $title-pagination-bp: 800px;
  * Section
  */
 .c-section {
-    height: 100%;
 	position: relative;
 	margin: 0 0 $space-double;
 
@@ -607,6 +606,10 @@ $title-pagination-bp: 800px;
 
   > h2 {
     text-transform: uppercase;
+  }
+
+  input {
+    max-width: 500px;
   }
 }
 
