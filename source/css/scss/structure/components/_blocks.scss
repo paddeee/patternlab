@@ -11,8 +11,11 @@
 $c-block-hero__find-property-bp: 930px;
 $header-contact-info-bp: 780px;
 $blog-index-item-bp: 75em;
+$filters-radius-bp: 23em;
 $filters-beds-bp: 44em;
 $filters-price-bp: 64em;
+$filters-type-bp: 75em;
+$filters-features-bp: 80em;
 
 
 /*------------------------------------*\
@@ -78,7 +81,7 @@ $filters-price-bp: 64em;
         padding: 0;
         width: 100%;
         left: 0;
-        top: -$pad-and-half;
+        top: -1.5em;
     }
 
     .c-form__sale-button-holder {
@@ -107,6 +110,17 @@ $filters-price-bp: 64em;
     select {
         min-width: 10em;
         width: 100%;
+        appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -webkit-appearance: none;
+        border: 0 none;
+        border-radius: $border-radius;
+        outline: none;
+        background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
+        background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 1px 1.5em;
+        background-repeat: no-repeat;
     }
 
     .c-form__sale-or-rent {
@@ -117,7 +131,7 @@ $filters-price-bp: 64em;
         display: flex;
         align-items: stretch;
         height: 100%;
-        padding: $pad-half $pad-half 0;
+        padding: 0 $pad-half;
 
         h2 {
             margin: $space-half 0;
@@ -129,19 +143,30 @@ $filters-price-bp: 64em;
 
         .c-field,
         .c-combined-field {
+            align-items: center;
             display: flex;
             flex: 1;
             font-size: $font-size-small;
-            margin: 0 $space 0.65rem;
+            margin: 0;
         }
 
         .c-combined-field__separator {
             padding: 0 $pad;
         }
 
+        .c-form__beds,
+        .c-form__price,
+        .c-form__type,
+        .c-form__features {
+            border-left: 1px solid #53535F;
+            padding: 0 $pad;
+        }
+
         .c-form__filters-link {
+            border-left: 1px solid #53535F;
             display: flex;
-            margin: $space-half/2 $space 0;
+            margin: 0 $space;
+            padding: 0.65em 0 0 $pad;
 
             > span {
                 margin: $space-half/2 0 0 $space-half;
@@ -176,17 +201,47 @@ $filters-price-bp: 64em;
                 display: none;
             }
         }
+
+        @media all and (max-width: $filters-type-bp) {
+
+            .c-form__type {
+                display: none;
+            }
+        }
+
+        @media all and (max-width: $filters-features-bp) {
+
+            .c-form__features {
+                display: none;
+            }
+        }
+
+        @media all and (min-width: $filters-features-bp) {
+
+            .c-form__filters-link {
+                display: none;
+            }
+        }
     }
 
     .c-form__split {
         display: flex;
         flex: 3;
-        margin: 0 $space 0 0;
+        padding: 0 $pad 0 0;
 
         input {
             border-top-left-radius: $border-radius;
             border-bottom-left-radius: $border-radius;
+            border-right: 1px solid $color-border;
             outline: none;
+
+            @media all and (max-width: $filters-radius-bp) {
+
+                & {
+                    border-top-right-radius: $border-radius;
+                    border-bottom-right-radius: $border-radius;
+                }
+            }
         }
 
         select {
@@ -200,15 +255,25 @@ $filters-price-bp: 64em;
             outline: none;
             border-top-right-radius: $border-radius;
             border-bottom-right-radius: $border-radius;
+            padding: 0 0 0 $pad-half;
         }
 
         .c-field {
+            align-items: initial;
+            display: flex;
             flex: initial;
-            margin: 0 0 0.65rem;
+            margin: $space-half 0;
         }
 
         .c-field:first-child {
             flex: 1;
+        }
+
+        @media all and (max-width: $filters-radius-bp) {
+
+            select {
+                display: none;
+            }
         }
     }
 
@@ -220,14 +285,103 @@ $filters-price-bp: 64em;
 .c-form__hidden-filters {
     display: none;
     position: fixed;
-    -webkit-transform: translateY(53px);
-    -ms-transform: translateY(53px);
-    transform: translateY(53px);
+    -webkit-transform: translateY(45px);
+    -ms-transform: translateY(45px);
+    transform: translateY(45px);
     bottom: 0;
     top: 0;
     width: 100%;
     z-index: 11;
-    background-color: $color-white;
+    color: $color-white;
+
+    @media all and (min-width: $filters-beds-bp) {
+
+        .c-form__beds {
+            display: none;
+        }
+    }
+
+    @media all and (min-width: $filters-price-bp) {
+
+        .c-form__price {
+            display: none;
+        }
+    }
+
+    @media all and (min-width: $filters-type-bp) {
+
+        .c-form__type {
+            display: none;
+        }
+    }
+
+    @media all and (min-width: $filters-features-bp) {
+
+        .c-form__features {
+            display: none;
+        }
+    }
+
+    .c-form__sale-or-rent {
+        display: none;
+    }
+
+    .c-form__sale-or-rent-form {
+        padding: $pad 0 0;
+
+        .c-form__location {
+            display: none;
+        }
+    }
+}
+
+.c-form__hidden-filters--ie {
+    display: block;
+    position: relative;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+
+
+    @media all and (min-width: $filters-beds-bp) {
+
+        .c-form__beds {
+            display: flex;
+        }
+    }
+
+    @media all and (min-width: $filters-price-bp) {
+
+        .c-form__price {
+            display: flex;
+        }
+    }
+
+    @media all and (min-width: $filters-type-bp) {
+
+        .c-form__type {
+            display: flex;
+        }
+    }
+
+    @media all and (min-width: $filters-features-bp) {
+
+        .c-form__features {
+            display: flex;
+        }
+    }
+
+    .c-form__sale-or-rent-form {
+
+        .c-form__location {
+            display: flex;
+        }
+    }
+
+    .c-form__actions {
+        margin: 0;
+        padding: 0 0 $pad;
+    }
 }
 
 .c-form__hidden-filters--active {

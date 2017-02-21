@@ -6,12 +6,17 @@ var scrollFilterBar = (function() {
   var changeFilterBarOn = 114;
 
   function init() {
+
+    if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv 11/)) || (typeof jQuery.browser !== "undefined" && jQuery.browser.msie == 1)) {
+      return;
+    }
+
     window.addEventListener('scroll', function() {
 
-      if (!didScroll) {
-        didScroll = true;
-        setTimeout(scrollPage, 10);
-      }
+    if (!didScroll) {
+      didScroll = true;
+      setTimeout(scrollPage, 10);
+    }
     }, false);
   }
 

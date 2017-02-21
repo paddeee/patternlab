@@ -357,7 +357,7 @@ $title-pagination-bp: 800px;
 .c-featured-property {
   color: $color-white;
   margin-bottom: $space-half;
-  padding: 8em $pad-and-half $pad-and-half;
+  padding: 3em $pad-and-half $pad-and-half;
   position: relative;
 
   > h2 {
@@ -394,7 +394,7 @@ $title-pagination-bp: 800px;
 .c-featured-property__title {
   position: absolute;
   left: $space-double;
-  top: 6em;
+  top: 1em;
   display: inline-block;
   background: $color-black;
   padding: $pad-quarter $pad-half;

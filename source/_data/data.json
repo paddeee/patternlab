@@ -137,7 +137,7 @@
         "fieldNote" : ""
     },
     "selectItem" : {
-        "id" : "bedroom-select-id",
+        "id" : "DropdownID",
         "label" : "Label",
         "options" : ["Default", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     },
