@@ -1167,6 +1167,9 @@ figure {
 figcaption {
   font-style: italic; }
 
+.img-margin {
+  margin: 1em 0; }
+
 /*------------------------------------*    #RESET
 \*------------------------------------*/
 /**

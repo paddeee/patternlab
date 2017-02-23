@@ -1,4 +1,10 @@
 {
   "pageTitle" : "About Us",
-  "form": false
+  "form": false,
+  "propertyForm": false,
+  "subscribe": {
+    "field": {
+      "label": "Enter Your Email Address"
+    }
+  }
 }
