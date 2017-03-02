@@ -4,7 +4,7 @@
 
 The Energised Agent Component Pattern Library uses [Node](https://nodejs.org) for core processing, [npm](https://www.npmjs.com/) to manage project dependencies, and [gulp.js](http://gulpjs.com/) to run tasks and interface with the core library. Node version 4 or higher suffices. You can follow the directions for [installing Node](https://nodejs.org/en/download/) on the Node website if you haven't done so already. Installation of Node will include npm.
 
-It's also highly recommended that you [install gulp](hhttps://github.com/gulpjs/gulp/blob/4.0/docs/getting-started.md) globally.
+It's also highly recommended that you [install gulp](https://github.com/gulpjs/gulp/blob/4.0/docs/getting-started.md) globally.
 
 ## Installing
 
