@@ -416,7 +416,7 @@ $title-pagination-bp: 800px;
   @media all and (min-width: $featured-property-bp) {
     float: left;
     perspective: 50em;
-    width: 60%;
+    width: 50%;
 
     a:hover {
 
@@ -439,7 +439,7 @@ $title-pagination-bp: 800px;
 .c-featured-property__detail-wrapper {
 
   @media all and (min-width: $featured-property-bp) {
-    width: 34%;
+    width: 46%;
     margin: 0 0 0 auto;
   }
 }
@@ -508,7 +508,7 @@ $title-pagination-bp: 800px;
   }
 
   @media all and (min-width: $featured-property-bp) {
-    width: 34%;
+    width: 46%;
     font-size: $font-size-small;
     color: $color-text-subtle;
     padding: 4em 0 0;
