@@ -8,6 +8,8 @@ It's also highly recommended that you [install gulp](hhttps://github.com/gulpjs/
 
 ## Installing
 
+Install git locally [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 `npm` is a dependency management and package system which can pull in all of the Energised Agent Component Pattern Library's dependencies for you. To accomplish this:
 
 * download or `git clone` this repository to an install location.
@@ -50,3 +52,29 @@ BrowserSync should open [http://localhost:3000](http://localhost:3000) in your b
 ### Edit files
 
 Documentation on how to use/edit Components are available here [http://patternlab.io/docs/index.html](http://patternlab.io/docs/index.html)
+
+### Publish changes to paddeee.github.io
+
+* commit changes in git
+
+    ```
+    git add .
+    git commit -m 'Add commit message here'
+    git push origin master
+    ```
+    
+* make sure changes in the source files have been compiled to the public directory
+
+    ```
+    gulp patternlab:build
+    ```
+    
+* push the changes to GitHub pages (paddeee.github.io)
+
+    ```
+    cd public
+    git add .
+    git commit -m 'Add commit message here'
+    git push origin master
+    cd ..
+    ```
