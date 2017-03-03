@@ -78,3 +78,9 @@ Documentation on how to use/edit Components are available here [http://patternla
     git push origin master
     cd ..
     ```
+    
+### Changing theme of Site
+
+* Change logo image here /source/images/logo.png
+
+* In /source/css/scss/branding/abstracts/variables.scss change the $color-primary and $color-primary-dim-50 rgba colour values
